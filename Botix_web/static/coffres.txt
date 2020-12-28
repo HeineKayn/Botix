@@ -1,0 +1,37 @@
+[
+    {
+        "content": "100 points",
+        "open": true,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": true,
+        "image": ""
+    },
+    {
+        "content": "Channel perso",
+        "open": true,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": true,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Photo dedicace",
+        "open": false,
+        "image": ""
+    }
+]
