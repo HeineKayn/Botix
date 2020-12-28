@@ -1,0 +1,5 @@
+[
+    "huitre",
+    "poulet", 
+    "dinde"
+]
