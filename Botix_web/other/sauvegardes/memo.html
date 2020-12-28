@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/dark_mode.css" />
+    <title>Memo</title>
+</head>
+<body>
+
+	<div class="topbar"></div>
+
+	<div class="sidebar">
+		<div class="logo">
+			<img src="./image/botix_circle.png" alt ="logo de botix"></img>
+		</div>
+		<div class="menu" id="everyone">
+			<ul>
+				<a href="./place_publique.html"><li>Place Publique</li></a>
+				<li>Ultimate Bravery</li>
+				<li>Statistiques</li>
+			</ul>
+		</div> 
+		<div class="menu" id="advanced">
+			<ul>
+				<li>Mémos</li>
+				<li>Musique</li>
+			</ul>
+		</div> 
+		<div class="menu" id="owner">
+			<ul>
+				<li>Communiquer</li>
+				<li>Logs</li>
+				<li>Configurer</li>
+			</ul>
+		</div> 
+		<div class="profil">
+			<div class="img_profil">
+				<img src="./image/profil.png" alt ="image profil invité"></img>
+			</div>
+			<div class="img_options">
+				<img src="./image/options.png" alt ="image options"></img>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="memo.js"></script>
+
+	<div class="memo_section">
+		<div class="memo_top">
+			<div class="memo_subject_text">Mémos de :</div>
+			<input type="text" id="SearchSubjectInput" spellcheck="false" list="saved_profile" placeholder="Entrez l'ID d'un membre" onfocus="EmptyBox()">
+			<div class="memo_save_icon" onclick="SaveProfile()">
+				<img src="./image/save.png" alt ="icone d'enregistrement"></img>
+			</div>
+			<datalist id="saved_profile">
+			</datalist>
+			
+		</div>
+	</div>
+
+</body>
+</html>
