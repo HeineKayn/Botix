@@ -1,0 +1,22 @@
+[
+    {
+        "content": "100 points",
+        "open": true,
+        "image": ""
+    },
+    {
+        "content": "Photo dedicacee",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Channel perso",
+        "open": false,
+        "image": ""
+    }
+]
