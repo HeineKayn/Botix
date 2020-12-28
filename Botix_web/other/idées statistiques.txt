@@ -1,0 +1,7 @@
+- graph message dans channels ces dernières heures
+- message le plus réagis aujourd'hui 
+- nombre de gens en vocal en moyenne ces dernières heures
+- nombre de fois que le mot "..." est sorti ces dernières heures
+- moyenne gens connectés par maison ces dernières heures
+
+- graph message quel channel de maison le plus actif
