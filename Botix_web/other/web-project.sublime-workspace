@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"login_user"
+			],
+			[
+				"mdp",
+				"mdp_list"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"login",
+				"login_text_container"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"auth",
+				"auth_manager"
+			],
+			[
+				"quar",
+				"quart_auth"
+			],
+			[
+				"getElementByName",
+				"getElementsByClassName"
+			],
+			[
+				"cof",
+				"coffre_coupon"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"cont",
+				"content_pop"
+			],
+			[
+				"marg",
+				"marginTop"
+			],
+			[
+				"ima",
+				"image_coffre"
+			],
+			[
+				"co",
+				"content_pop"
+			],
+			[
+				"id_",
+				"id_coffre"
+			],
+			[
+				"test",
+				"test_example"
+			],
+			[
+				"Q_",
+				"Q_test"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"Con",
+				"Content"
+			],
+			[
+				"id",
+				"idChannel"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"dema",
+				"demaciens_names"
+			],
+			[
+				"e",
+				"except"
+			],
+			[
+				"invoke",
+				"invoked_dic"
+			],
+			[
+				"ser",
+				"server_name"
+			],
+			[
+				"memo",
+				"memo_dic"
+			],
+			[
+				"server",
+				"server_list"
+			],
+			[
+				"channel",
+				"channel_name"
+			],
+			[
+				"name",
+				"name_maison"
+			],
+			[
+				"onl",
+				"onlines"
+			],
+			[
+				"nb",
+				"nb_lignes"
+			],
+			[
+				"Affic",
+				"Affiche2"
+			],
+			[
+				"Sais",
+				"Saisie2"
+			],
+			[
+				"nb_",
+				"nb_lignes"
+			],
+			[
+				"n",
+				"nb_lignes"
+			],
+			[
+				"serve",
+				"server_name"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"la",
+				"laps_minute"
+			],
+			[
+				"meme",
+				"meme_nom"
+			],
+			[
+				"stat",
+				"Statistiques"
+			],
+			[
+				"chann",
+				"channel_infos"
+			],
+			[
+				"channe",
+				"channel_dic"
+			],
+			[
+				"guil",
+				"guild_infos"
+			],
+			[
+				"guild",
+				"guild_dic"
+			],
+			[
+				"hiu",
+				"historique"
+			],
+			[
+				"his",
+				"histo_dic"
+			],
+			[
+				"hist",
+				"histo_dic"
+			],
+			[
+				"hi",
+				"histo_dic"
+			],
+			[
+				"pl",
+				"Playable_Colonne"
+			],
+			[
+				"col",
+				"colonne"
+			],
+			[
+				"up",
+				"Update_Playable"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"data",
+				"datalist\tTag"
+			],
+			[
+				"td",
+				"tbody\tTag"
+			],
+			[
+				"g",
+				"getDescription"
+			],
+			[
+				"invalid",
+				"invalid_list"
+			],
+			[
+				"inv",
+				"invalid_list"
+			],
+			[
+				"ec",
+				"execute"
+			],
+			[
+				"H",
+				"Horaire"
+			],
+			[
+				"exc",
+				"execute"
+			],
+			[
+				"Date",
+				"DatePlanned"
+			],
+			[
+				"Q",
+				"Q_Memo"
+			],
+			[
+				"Fr",
+				"FROM"
+			],
+			[
+				"for",
+				"format_string"
+			],
+			[
+				"Dat",
+				"DatePlanned"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"notifi",
+				"notification"
+			],
+			[
+				"magin",
+				"margin-top\tproperty"
+			],
+			[
+				"color",
+				"outline-color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"get",
+				"get_guild_count"
+			],
+			[
+				"ipc",
+				"ipc_node"
+			],
+			[
+				"re",
+				"remove_elem"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Thomas/Desktop/Botix web",
+		"/C/Users/Thomas/Desktop/Botix web/other",
+		"/C/Users/Thomas/Desktop/Botix web/static",
+		"/C/Users/Thomas/Desktop/Botix web/static/audio",
+		"/C/Users/Thomas/Desktop/Botix web/static/css",
+		"/C/Users/Thomas/Desktop/Botix web/static/js",
+		"/C/Users/Thomas/Desktop/Botix web/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/Thomas/Desktop/Botix web/templates/base.html",
+		"/C/Users/Thomas/Desktop/Botix web/templates/fortune.html",
+		"/C/Users/Thomas/Desktop/Botix web/app.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/main.py",
+		"/C/Users/Thomas/Desktop/Botix web/static/css/dark_mode.css",
+		"/C/Users/Thomas/Desktop/Botix web/static/js/fortune.js",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/cogs/audio.py",
+		"/C/Users/Thomas/Desktop/Botix web/other/test.py",
+		"/C/Users/Thomas/Desktop/Botix web/static/js/login.js",
+		"/C/Users/Thomas/Desktop/Botix web/templates/login.html",
+		"/D/Bots/OLD BOTIX/Botix/botix9.py",
+		"/C/Users/Thomas/Desktop/Botix web/templates/keys.html",
+		"/C/Users/Thomas/Desktop/Botix web/static/js/memo.js",
+		"/C/Users/Thomas/Desktop/Botix web/templates/memo.html",
+		"/C/Users/Thomas/Desktop/dev web/td4 et 5/td4.js",
+		"/D/github/projet web cours/hugobarral.github.io/css/style.css",
+		"/C/Users/Thomas/Desktop/Botix web/static/coffres.txt",
+		"/C/Users/Thomas/Desktop/dev web/td6/q2.html",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/annexes/memo/memo_db.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/cogs/memo.py",
+		"/C/Users/Thomas/Desktop/Botix web/templates/place_publique.html",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix Test/main.py",
+		"/C/Users/Thomas/Desktop/Nouveau dossier/memo.py",
+		"/C/Users/Thomas/Desktop/save memo/main.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/annexes/memo/old_main.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/annexes/memo/old_memo2.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 1/annexes/memo/old_memo.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/.env",
+		"/C/Users/Thomas/Desktop/Botix web/static/js/publique.js",
+		"/C/Users/Thomas/Desktop/Botix web/other/sauvegardes/place_publique.html",
+		"/C/Users/Thomas/Desktop/Botix web/other/sauvegardes/memo.js",
+		"/C/Users/Thomas/Desktop/Botix web/other/web-project.sublime-project",
+		"/C/Users/Thomas/Desktop/dev web/td6/q3.js",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 1/cogs/memo.py",
+		"/C/Users/Thomas/Desktop/Botix web/static/css/dark_mode2.css",
+		"/C/Users/Thomas/Desktop/open-cmd.bat",
+		"/C/Users/Thomas/Desktop/C/1er TP/main.c",
+		"/C/Users/Thomas/Desktop/C/2eme TP/main.c",
+		"/C/Users/Thomas/Desktop/C/TD1/td1.c",
+		"/C/Users/Thomas/Desktop/C/TD2/td2.c",
+		"/C/Users/Thomas/Desktop/C/TD3/TD3.c",
+		"/C/Users/Thomas/Desktop/C/TD4/TD4.C",
+		"/C/Users/Thomas/Desktop/C/main.c",
+		"/C/Users/Thomas/Desktop/C/2eme TP/main.exe",
+		"/C/Users/Thomas/Desktop/C/TD5/TD5.c",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/app/routes.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/app/microblog.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/app/templates/index.html",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/app/templates/base.html",
+		"/C/Users/Thomas/Desktop/Botix_File/botix_folder.ico",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix Test/.env",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix 2/cogs/ipc.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/IPC/IPC_Bot_Test.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/IPC/IPC_Web_Test.py",
+		"/D/Bots/BOTIX/cogs/memo.py",
+		"/C/Users/Thomas/Desktop/Botix web/main.py",
+		"/D/github/projet web cours/hugobarral.github.io/javascript/script.js",
+		"/C/Users/Thomas/Desktop/dev web/td4 et 5/td4.html",
+		"/C/Users/Thomas/Desktop/dev web/td3/td3.html",
+		"/C/Users/Thomas/Desktop/Botix web/memo.js",
+		"/C/Users/Thomas/Desktop/Botix web/memo.html",
+		"/C/Users/Thomas/Desktop/dev web/td6/q3.html",
+		"/C/Users/Thomas/Desktop/Botix web/style/dark_mode.css",
+		"/C/Users/Thomas/Desktop/Botix web/place_publique.html",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/app/__init__.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/microblog/.flaskenv",
+		"/C/Users/Thomas/Desktop/Test Python-Web/IPC_Web_Test.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/servpy.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/IPC_Bot_Test.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/test.py",
+		"/C/Users/Thomas/Desktop/dev web/td6/td6.js",
+		"/C/Users/Thomas/Desktop/dev web/td6/td6.html",
+		"/C/Users/Thomas/Desktop/Exemple Titan/webapp/titanembeds/app.py",
+		"/C/Users/Thomas/Desktop/Exemple Titan/webapp/titanembeds/templates/index.html.j2",
+		"/C/Users/Thomas/Desktop/dev web/td4/td4.js",
+		"/C/Users/Thomas/Desktop/dev web/td4/td4.html",
+		"/C/Users/Thomas/Desktop/Botix web/debug.log",
+		"/C/Users/Thomas/Desktop/dev web/td1/style2.css",
+		"/C/Users/Thomas/Desktop/dev web/td1/index.html",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/main.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/cogs/memo.py",
+		"/C/Users/Thomas/Desktop/Test Python-Web/test2.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/cogs/reactions.py",
+		"/C/Users/Thomas/Desktop/C/1er TP/eleves.c",
+		"/C/Users/Thomas/Desktop/C/1er TP/constantes.h",
+		"/C/Users/Thomas/Desktop/C/1er TP/makefile",
+		"/C/Users/Thomas/Desktop/C/1er TP/eleves.h",
+		"/C/Users/Thomas/Desktop/C/1er TP/fonctions.h",
+		"/C/Users/Thomas/Desktop/C/1er TP/fonctions.c",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/annexes/memo/old_memo.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/annexes/memo/memo_db.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/ub_doc.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/annexes/ub/test_db.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/annexes/ub/LoL_Data_Scrapper2.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/cogs/limite.py",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/.env",
+		"/C/Users/Thomas/Desktop/Botix_File/Botix/cogs/ub.py",
+		"/C/Users/Thomas/Desktop/dev web/test.css",
+		"/C/Users/Thomas/Desktop/dev web/test.html",
+		"/C/Users/Thomas/Desktop/dev web/example.css",
+		"/D/Bots/BOTIX/main.py",
+		"/C/Users/Thomas/Desktop/Python/test.py",
+		"/D/Bots/BOTIX/cogs/utility.py",
+		"/D/Bots/BOTIX/cogs/ub.py",
+		"/D/Bots/BOTIX/cogs/rp.py",
+		"/D/Bots/BOTIX/cogs/reactions.py",
+		"/D/Bots/BOTIX/cogs/bot_act.py",
+		"/D/Bots/BOTIX/cogs/audio_quotes.py",
+		"/D/Bots/BOTIX/cogs/audio.py",
+		"/C/Users/Thomas/Desktop/Python/IPC_Web_Test.py",
+		"/C/Users/Thomas/Desktop/Python/servpy.py",
+		"/C/Users/Thomas/Desktop/Python/templates/web.html",
+		"/C/Users/Thomas/Desktop/Python/templates/web2.html",
+		"/D/Bots/OLD BOTIX/Saves Botix/22-04-2020/botix9.py",
+		"/C/Users/Thomas/Desktop/dev web/td2/td2_3.html",
+		"/C/Users/Thomas/Desktop/dev web/td1/td1.pdf",
+		"/C/Users/Thomas/Desktop/Python/.env",
+		"/C/Users/Thomas/Desktop/Python/test2.py",
+		"/C/Users/Thomas/Desktop/Python/IPC_Bot_Test.py",
+		"/C/Users/Thomas/Desktop/Python/aaaa.py",
+		"/C/Users/Thomas/Desktop/Python/.quartenv",
+		"/C/Users/Thomas/Desktop/Python/web.html",
+		"/C/Users/Thomas/Desktop/Python/template/IPC_Web_Test.html",
+		"/C/Users/Thomas/Desktop/Python/IPC_Web_Test.html",
+		"/D/Bots/test.py",
+		"/D/Bots/test_runes_json.py",
+		"/C/Users/Thomas/Desktop/dev web/javascript.html",
+		"/C/Users/Thomas/Desktop/test.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input",
+			"    ",
+			"ol",
+			"removeLine",
+			"Insert_Request",
+			"bot.cur",
+			"Bot",
+			"Insert_Request",
+			"    ",
+			"%;\n",
+			"container_memo",
+			"Memo.horaire",
+			"Content_Mention",
+			"pass",
+			"    ",
+			"\")\n",
+			"    ",
+			"#c0c0c0",
+			"\");\n",
+			"    ",
+			">\n",
+			"\t\t\t\t\t\t\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 121.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "web-project.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"AudioCog"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
