@@ -76,10 +76,11 @@ async def place_publique(channel=""):
 	messages = await last_messages(guild,channel,100)  # "The Kingdom Of Demacia","🏰place_publique"
 	messages = eval(messages)
 
-	onlines = await online_list(guild,channel)
-	onlines = eval(onlines)
+	# onlines = await online_list(guild,channel)
+	# onlines = eval(onlines)
+	demaciens = await app.ipc_node.request("get_demaciens",server = guild, channel = channel)
 
-	return await render_template('place_publique.html',messages=messages, onlines=onlines)
+	return await render_template('place_publique.html',messages=messages, demacien_list=demaciens)
 
 @app.route("/memo")
 @app.route("/memo/<id_user>")
@@ -101,7 +102,7 @@ async def memo(id_user=0):
 	memos = []
 	if id_user :
 		memos = await app.ipc_node.request("get_memos", user_id=id_user)
-	return await render_template('memo.html',demaciens=demaciens,memos=memos)
+	return await render_template('memo.html',demacien_list=demaciens,memos=memos)
 
 @app.route("/memo/<id_user>/<id_message>")
 async def memo_delete(id_user,id_message):
@@ -216,8 +217,6 @@ async def last_messages(server_name = "bdo", channel_name = "général", limit =
 		messages.pop(i)
 
 	return str(messages)
-
-# return render_template('index.html', title='Home', user=user, posts=posts)
 
 # ---------------
 
