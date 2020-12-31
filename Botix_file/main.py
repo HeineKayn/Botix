@@ -78,7 +78,7 @@ async def get_last_messages(data):
 		histo_dic["avatar"]		= str(message.author.avatar_url)
 		histo_dic["name"]		= message.author.name
 		histo_dic["content"]	= [message.clean_content]
-		histo_dic["colour"]	 = str(message.author.colour)
+		histo_dic["colour"]	 	= str(message.author.colour)
 
 		histo_dic["attachements"]			= []
 		for attach in message.attachments :
