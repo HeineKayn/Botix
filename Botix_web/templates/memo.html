@@ -9,8 +9,10 @@
 			<div class="memo_subject_text">Mémos de :</div>
 			<input type="text" id="SearchSubjectInput" spellcheck="false" list="saved_profile" placeholder="Entrez l'ID d'un membre">
 			<datalist id="saved_profile">
-				{% for demacien in demaciens %}
-					<option> {{ demacien.name_id }}</option>>
+				{% for name_maison, demaciens in demacien_list.items() %}
+                    {% for demacien in demaciens %}
+					   <option> {{ demacien.name_id }}</option>
+                    {% endfor %}
 				{% endfor %}
 			</datalist>
 		</div>
