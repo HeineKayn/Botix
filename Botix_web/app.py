@@ -220,7 +220,7 @@ async def memo(id_user="0"):
 	id_user = int(id_user)
 	memos = []
 	if id_user :
-		memos = await get_memos(user_id)
+		memos = await get_memos(id_user)
 	return await render_template('memo.html',demacien_list=demaciens,memos=memos)
 
 @app.route("/memo/<id_user>/<id_message>")
