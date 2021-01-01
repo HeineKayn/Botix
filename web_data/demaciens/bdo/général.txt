@@ -1,0 +1,30 @@
+{
+    "time": "2021/01/01 03:17:24",
+    "content": {
+        "Vayne": [
+            {
+                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/50a48eadd5ef41e9986406b182ed62e0.webp?size=1024",
+                "name": "Deltix",
+                "name_id": "Deltix - 174112128548995072",
+                "status": "dnd",
+                "colour": "#206694"
+            },
+            {
+                "avatar": "https://cdn.discordapp.com/embed/avatars/1.png",
+                "name": "Tic",
+                "name_id": "Tic - 697505649377935461",
+                "status": "offline",
+                "colour": "#206694"
+            }
+        ],
+        "Buvelle": [
+            {
+                "avatar": "https://cdn.discordapp.com/embed/avatars/2.png",
+                "name": "Tac",
+                "name_id": "Tac - 174838169374687233",
+                "status": "offline",
+                "colour": "#000000"
+            }
+        ]
+    }
+}
