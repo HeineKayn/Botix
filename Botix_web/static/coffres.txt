@@ -1,10 +1,5 @@
 [
     {
-        "content": "Channel perso",
-        "open": false,
-        "image": ""
-    },
-    {
         "content": "Role custom",
         "open": false,
         "image": ""
@@ -12,6 +7,11 @@
     {
         "content": "Role custom",
         "open": true,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
         "image": ""
     },
     {
@@ -26,12 +26,12 @@
     },
     {
         "content": "Role custom",
-        "open": false,
+        "open": true,
         "image": ""
     },
     {
-        "content": "Role custom",
-        "open": true,
+        "content": "Channel perso",
+        "open": false,
         "image": ""
     }
 ]
