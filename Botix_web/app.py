@@ -124,7 +124,7 @@ async def get_channels(guild="bdo"):
 
 async def get_memos(user_id=174112128548995072):
 	file = "memos/{}.txt".format(str(user_id))
-	delay = 30
+	delay = 1
 
 	if Need_update(file,delay):
 		await app.ipc_node.request("get_memos", user_id = user_id)
@@ -188,6 +188,7 @@ async def place_publique(channel=""):
 
 @app.route("/memo")
 @app.route("/memo/<id_user>")
+@login_required
 async def memo(id_user="0"):
 	channel = "🏰place_publique"
 	server_list = await get_guilds()
@@ -224,11 +225,13 @@ async def memo(id_user="0"):
 	return await render_template('memo.html',demacien_list=demaciens,memos=memos)
 
 @app.route("/memo/<id_user>/<id_message>")
+@login_required
 async def memo_delete(id_user,id_message):
-	# await app.ipc_node.request("remove_memo",id_message=id_message)
+	await app.ipc_node.request("remove_memo",id_message=id_message)
 	return redirect(url_for('memo',id_user=id_user))
 
 @app.route("/fortune")
+@login_required
 async def fortune():
 
 	try : 
@@ -245,24 +248,8 @@ async def fortune():
 		
 	return await render_template('fortune.html',coffres=coffres,keys=keys)
 
-@app.route("/fortune/<id_coffre>")
-async def fortune_open(id_coffre):
-
-	id_coffre = int(id_coffre) - 1
-
-	try : 
-		with open('./static/coffres.txt') as json_file:
-			coffres = json.load(json_file)
-			coffres[id_coffre]["open"] = True
-
-		with open('./static/coffres.txt', 'w') as outfile:
-   			json.dump(coffres, outfile, indent=4)
-	except : 
-		pass
-
-	return redirect(url_for('fortune'))
-
 @app.route("/fortune-first-time")
+@login_required
 async def fortune_shuffle():
 	try : 
 		with open('./static/coffres.txt') as json_file:
@@ -274,6 +261,43 @@ async def fortune_shuffle():
 	except : 
 		pass
 	return redirect(url_for('fortune'))
+
+# @app.route("/fortune/<id_coffre>")
+# @login_required
+# async def fortune_open(id_coffre):
+
+# 	id_coffre = int(id_coffre) - 1
+
+# 	try : 
+# 		with open('./static/coffres.txt') as json_file:
+# 			coffres = json.load(json_file)
+# 			coffres[id_coffre]["open"] = True
+
+# 		with open('./static/coffres.txt', 'w') as outfile:
+#    			json.dump(coffres, outfile, indent=4)
+# 	except : 
+# 		pass
+
+# 	return redirect(url_for('fortune'))
+
+@app.route('/fortune_open', methods=['POST'])
+@login_required
+async def fortune_open():
+	id_coffre = await request.form
+	id_coffre = int(id_coffre['id_coffre']) - 1
+
+	try : 
+		with open('./static/coffres.txt') as json_file:
+			coffres = json.load(json_file)
+			coffres[id_coffre]["open"] = True
+
+		with open('./static/coffres.txt', 'w') as outfile:
+			json.dump(coffres, outfile, indent=4)
+
+	except : 
+		pass
+
+	return {"content" : coffres[id_coffre]["content"]}
 
 # ---------------
 
