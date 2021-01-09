@@ -1,5 +1,5 @@
 {
-    "time": "2021/01/01 03:49:14",
+    "time": "2021/01/02 02:03:55",
     "content": {
         "Vayne": [
             {
@@ -24,6 +24,15 @@
                 "name_id": "Tac - 174838169374687233",
                 "status": "offline",
                 "colour": "#000000"
+            }
+        ],
+        "Demacien": [
+            {
+                "avatar": "https://cdn.discordapp.com/embed/avatars/2.png",
+                "name": "Toc",
+                "name_id": "Toc - 214043072831422467",
+                "status": "offline",
+                "colour": "#e91e63"
             }
         ]
     }
