@@ -1,5 +1,18 @@
 var count_coup = 0;
 
+function UpdateAffiche() {
+	affiche = document.getElementById("coupon_state")
+
+	if (count_coup > 0){ 
+	    affiche.innerText = count_coup.toString();
+	    affiche.style.color = "green";
+	}
+	else{ 
+	    affiche.innerText = "Aucun";
+	    affiche.style.color = "red";
+	}
+}
+
 var keyAdd = function (event) {
     if (event.type = "keydown"){
     	if (event.key == 'Enter'){
@@ -8,9 +21,7 @@ var keyAdd = function (event) {
     			count_coup ++;
     			event.target.value = '';
 
-    			affiche = document.getElementById("coupon_state")
-    			affiche.innerText = "Validé";
-    			affiche.style.color = "green";
+    			UpdateAffiche();
     		}
     	}
     	if (event.key == 'Backspace' || event.key == 'Delete'){
@@ -23,6 +34,9 @@ function OpenChest(element) {
 
 	if (count_coup > 0){
 
+		count_coup --;
+		UpdateAffiche() 
+		
 		element.className = "coffre_open";
 		const image_coffre = element.getElementsByTagName("img")[0]
 		image_coffre.src = "../static/image/coffre_ouvert.png"
@@ -78,7 +92,12 @@ function OpenChest(element) {
 		 }*/
 
 		setTimeout(function(){
-		    window.location.pathname += "/" + String(element.getAttribute('indexValue')) ;
+		    $.post('/fortune_open', {"id_coffre" : String(element.getAttribute('indexValue'))
+				}).done(function(response) {
+                	element.innerHTML = "<div class='coffre_content'>"+ response["content"] +"</div><img width=220 src='../static/image/coffre_ouvert.png' alt ='coffre ouvert'></img>"
+            	}).fail(function() {
+                	console.log("Fail");
+            });
 		}, 500);  
 
 	}
