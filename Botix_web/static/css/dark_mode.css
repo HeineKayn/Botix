@@ -322,7 +322,7 @@ li {
 
 .memo_body{
 	overflow: auto;
-	height : 90%;
+	height : 750px;
 	width: 80%;
 	float:left;
 }
