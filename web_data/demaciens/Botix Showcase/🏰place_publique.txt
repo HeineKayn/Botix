@@ -1,5 +1,5 @@
 {
-    "time": "2021/01/01 03:49:14",
+    "time": "2021/01/02 02:03:55",
     "content": {
         "Vayne": [
             {
@@ -73,13 +73,13 @@
                 "avatar": "https://cdn.discordapp.com/avatars/227442863619833856/72e36dc1198913716e9c6cd9f564019e.webp?size=1024",
                 "name": "F\u00e5llen",
                 "name_id": "F\u00e5llen - 227442863619833856",
-                "status": "offline",
+                "status": "online",
                 "colour": "#9b59b6"
             }
         ],
         "Buvelle": [
             {
-                "avatar": "https://cdn.discordapp.com/avatars/178543105857814528/ec346aa3fcac7b31995e73ebd695063f.webp?size=1024",
+                "avatar": "https://cdn.discordapp.com/avatars/178543105857814528/ea04881b0b44e445d35d24df37217bc7.webp?size=1024",
                 "name": "Iratan",
                 "name_id": "Iratan - 178543105857814528",
                 "status": "offline",
