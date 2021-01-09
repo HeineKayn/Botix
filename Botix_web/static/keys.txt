@@ -1,5 +1,8 @@
 [
-    "huitre",
-    "poulet", 
-    "dinde"
+    "2XC2~0X3Q~12JL~KOXJ",
+    "8NDS~KIPW~4ILL~M6NR",
+    "LFUW~2B2C~TVHQ~XWO6",
+    "ZJ02~ABJA~OJP4~XDAC",
+    "2L6U~A26Z~SFW6~4QJP",
+    "CQ25~QV3P~V68W~H29X"
 ]
