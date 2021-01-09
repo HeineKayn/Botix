@@ -175,40 +175,6 @@ async def get_demaciens(data):
 	except : 
 		pass
 
-# @bot_ipc.route()
-# async def get_onlines(data):
-# 	server_name  = data.server 
-# 	channel_name = data.channel  
-
-# 	maisons = ["Vayne","Buvelle","Crownguard","Laurent","Cloudfield"]
-# 	guild   = discord.utils.get(bot.guilds, name = server_name)
-# 	channel = discord.utils.get(guild.channels, name = channel_name)
-# 	role = discord.utils.get(guild.roles, name = "Demacien")
-
-# 	onlines = {}
-
-# 	members = [x for x in channel.members if role in x.roles]
-# 	for member in members:
-
-# 		if member.raw_status != "offline" :
-# 			online_dic				= {}
-# 			online_dic["avatar"]	= str(member.avatar_url)
-# 			online_dic["name"]		= member.name
-# 			online_dic["status"]	= member.raw_status
-# 			online_dic["colour"]	= str(member.colour)
-
-# 			try :
-# 				maison  = [str(x) for x in member.roles if str(x) in maisons][0]
-# 			except :
-# 				maison = "Demacien"
-
-# 			if maison in onlines:
-# 				onlines[maison] += [online_dic]
-# 			else : 
-# 				onlines[maison] = [online_dic]
-
-# 	return onlines
-
 @bot_ipc.route()
 async def get_guilds(data):
 	file = "guilds.txt"
@@ -245,15 +211,19 @@ async def get_memos(data):
 	uid = data.user_id
 	file = "memos/{}.txt".format(uid)
 
-	author_tagged = "<@!" + str(uid) + ">"
+	author_tagged = "@" + bot.get_user(uid).name
 	author_roles = []
 	for guild in bot.guilds : 
 		try : 
-			author = await guild.get_member(uid)
-			author_roles += ["<@&"+str(x.id)+">" for x in author.roles]
+			author = guild.get_member(uid)
+			author_roles += [str(x) for x in author.roles]
 		except:
 			pass
 
+	for i,role in enumerate(author_roles) :
+		if role[0] != "@" :
+			author_roles[i] = "@" + role
+	
 	concerne = author_roles + [author_tagged]
 
 	Q_Memo = """
@@ -301,6 +271,19 @@ async def get_memos(data):
 		memos.append(memo_dic)
 	
 	Update_json(file,memos)
+
+@bot_ipc.route()
+async def remove_memo(data):
+	idMessage = data.id_message
+	Q_Remove = """
+					DELETE h 
+					FROM Horaire h 
+					INNER JOIN Info i 
+						ON h.ID = i.idHoraire 
+					WHERE 
+						i.idMessage = (%s)
+					"""
+	await bot.cur.execute(Q_Remove,(idMessage,))
 
 ### ----------------------------------
 
