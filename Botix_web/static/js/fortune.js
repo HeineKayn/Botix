@@ -16,13 +16,18 @@ function UpdateAffiche() {
 var keyAdd = function (event) {
     if (event.type = "keydown"){
     	if (event.key == 'Enter'){
-    		if (event.target.value == 'key'){
 
-    			count_coup ++;
-    			event.target.value = '';
+    		setTimeout(function(){
+			    $.post('/use_key', {"key" : event.target.value}).done(function(response) {
+			    		console.log(response["key_exist"])
+						if (response["key_exist"] == true){
+							count_coup ++;
+    						event.target.value = '';
+    						UpdateAffiche();
+						}
+					});
+			}, 500);  
 
-    			UpdateAffiche();
-    		}
     	}
     	if (event.key == 'Backspace' || event.key == 'Delete'){
     		event.target.value = '';
