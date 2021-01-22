@@ -299,6 +299,30 @@ async def fortune_open():
 
 	return {"content" : coffres[id_coffre]["content"]}
 
+@app.route('/use_key', methods=['POST'])
+@login_required
+async def use_key():
+	key_exist = False
+	key = await request.form
+	key = key['key']
+
+	try : 
+		with open('./static/keys.txt') as json_file:
+			coffres = json.load(json_file)
+
+		key_exist = key in coffres
+
+		if key_exist : 
+
+			#coffres.remove(key)
+			with open('./static/keys.txt', 'w') as outfile:
+				json.dump(coffres, outfile, indent=4)
+
+	except : 
+		pass
+
+	return {"key_exist" : key_exist}
+
 # ---------------
 
 @app.before_first_request
