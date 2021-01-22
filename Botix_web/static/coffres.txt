@@ -5,43 +5,13 @@
         "image": ""
     },
     {
-        "content": "Role custom",
-        "open": false,
-        "image": ""
-    },
-    {
         "content": "Photo dedicace",
-        "open": false,
-        "image": ""
-    },
-    {
-        "content": "Photo dedicace",
-        "open": true,
-        "image": ""
-    },
-    {
-        "content": "Photo dedicace",
-        "open": true,
-        "image": ""
-    },
-    {
-        "content": "Role custom",
-        "open": false,
-        "image": ""
-    },
-    {
-        "content": "Channel perso",
         "open": false,
         "image": ""
     },
     {
         "content": "Role custom",
         "open": false,
-        "image": ""
-    },
-    {
-        "content": "Photo dedicace",
-        "open": true,
         "image": ""
     },
     {
@@ -61,7 +31,37 @@
     },
     {
         "content": "Photo dedicace",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Photo dedicace",
         "open": true,
+        "image": ""
+    },
+    {
+        "content": "Photo dedicace",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Channel perso",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Photo dedicace",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
         "image": ""
     }
 ]
