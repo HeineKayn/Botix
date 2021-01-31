@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=*, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/dark_mode.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/desktop.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../static/image/botix-web.ico">
     <title>Botix Web</title>
@@ -46,7 +46,7 @@
 		{% endif %}
 		{% endif %}
 
-		<div class="profil">
+		<div class="section_profil">
 			<a class="img_profil" href="/login">
 				{% if not current_user.is_authenticated %}
 				<img src="../static/image/profil.png" alt ="image profil inconnu"></img>
@@ -66,7 +66,9 @@
 		</div>
 	</div>
 
-	{% block content %}{% endblock %}
+	<div class="section_container">
+		{% block content %}{% endblock %}
+	</div>
 
 </body>
 </html>
