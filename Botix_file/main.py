@@ -8,6 +8,8 @@ import os
 from discord.ext.ipc import Server
 from datetime import datetime
 
+import aiohttp
+
 # ---------------
 
 import aiomysql
@@ -31,6 +33,7 @@ TOKEN = os.getenv('Test_Token')
 intents = discord.Intents.all()
 
 initial_extensions = [#'cogs.ipc',
+					  'cogs.dm',
 					  'cogs.memo']
 
 class Bot(commands.Bot):
@@ -192,7 +195,7 @@ async def get_guilds(data):
 @bot_ipc.route()
 async def get_channels(data):
 	server_name  = data.server
-	file = "guilds/{}.txt".format(server)
+	file = "guilds/{}.txt".format(server_name)
 
 	try : 
 		guild   = discord.utils.get(bot.guilds, name = server_name)
@@ -284,6 +287,54 @@ async def remove_memo(data):
 						i.idMessage = (%s)
 					"""
 	await bot.cur.execute(Q_Remove,(idMessage,))
+
+@bot_ipc.route()
+async def get_config(data):
+
+	try : 
+		with open("../web_data/config.txt") as json_file:
+			config = json.load(json_file)
+
+	except:
+		config = {}
+
+	return config
+
+@bot_ipc.route()
+async def set_config(data):
+
+	dic = data.config
+
+	try : 
+		with open("../web_data/config.txt") as json_file:
+			config = json.load(json_file)
+
+		for key,val in dic.items():
+			if config[key] != val :
+				config[key] = val
+
+				if key == "pseudo":
+					await bot.user.edit(username=val)
+
+				elif key == "avatar":
+					async with aiohttp.ClientSession() as session:
+						async with session.get(val) as response:
+							img = await response.read()
+							await bot.user.edit(avatar=img)
+
+		with open("../web_data/config.txt", 'w') as outfile:
+			json.dump(config, outfile, indent=4)
+
+	except:
+		config = {}
+
+	return config
+
+@bot_ipc.route()
+async def send_message(data):
+	guild = discord.utils.get(bot.guilds, name = data.guild)
+	channel = discord.utils.get(guild.channels, name = data.channel)
+	await channel.send(data.message)
 
 ### ----------------------------------
 
