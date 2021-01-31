@@ -1,54 +1,6 @@
 {
-    "time": "2021/01/19 02:26:25",
+    "time": "2021/01/28 22:28:17",
     "content": [
-        {
-            "created": "2021/01/02 \u00e0 01:55",
-            "planned": "2021/05/02 \u00e0 01:55",
-            "guild": "bdo",
-            "channel": "m\u00e9mo-test",
-            "invoker": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "invoked": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "content": "@Tic eh boloss",
-            "idMessage": 794730604595642378
-        },
-        {
-            "created": "2021/01/02 \u00e0 01:55",
-            "planned": "2021/05/02 \u00e0 01:55",
-            "guild": "bdo",
-            "channel": "m\u00e9mo-test",
-            "invoker": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "invoked": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "content": "@Tic ayayeh",
-            "idMessage": 794730640629170176
-        },
-        {
-            "created": "2021/01/02 \u00e0 01:55",
-            "planned": "2021/05/02 \u00e0 01:55",
-            "guild": "bdo",
-            "channel": "m\u00e9mo-test",
-            "invoker": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "invoked": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "content": "@Tic ayoaoa",
-            "idMessage": 794730667845353472
-        },
         {
             "created": "2021/01/02 \u00e0 01:57",
             "planned": "2021/05/18 \u00e0 01:57",
@@ -80,22 +32,6 @@
             },
             "content": "longtemps",
             "idMessage": 794729924061167636
-        },
-        {
-            "created": "2021/01/02 \u00e0 01:56",
-            "planned": "2024/09/28 \u00e0 01:56",
-            "guild": "bdo",
-            "channel": "m\u00e9mo-test",
-            "invoker": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "invoked": {
-                "name": "Deltix",
-                "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024"
-            },
-            "content": "tr\u00e8s longtemps",
-            "idMessage": 794730725957566484
         }
     ]
 }
