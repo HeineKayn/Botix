@@ -1,12 +1,12 @@
 {
-    "time": "2021/01/19 02:26:23",
+    "time": "2021/01/28 22:28:12",
     "content": {
         "Vayne": [
             {
                 "avatar": "https://cdn.discordapp.com/avatars/113770259223150599/28f4ee780523ee351ff38ccb5689cb7f.webp?size=1024",
                 "name": "charon25",
                 "name_id": "charon25 - 113770259223150599",
-                "status": "offline",
+                "status": "dnd",
                 "colour": "#206694"
             },
             {
@@ -26,7 +26,7 @@
         ],
         "Cloudfield": [
             {
-                "avatar": "https://cdn.discordapp.com/avatars/140618550669737984/1f272552e70b9777aa38d3a4de452338.webp?size=1024",
+                "avatar": "https://cdn.discordapp.com/avatars/140618550669737984/424b89f29ef85d048ab03b2aa632a3a5.webp?size=1024",
                 "name": "Starduck",
                 "name_id": "Starduck - 140618550669737984",
                 "status": "online",
@@ -43,7 +43,7 @@
                 "avatar": "https://cdn.discordapp.com/avatars/184688618202202112/681ee064cdf01f6ea0b89883ccfdcc5e.webp?size=1024",
                 "name": "Faithium",
                 "name_id": "Faithium - 184688618202202112",
-                "status": "offline",
+                "status": "online",
                 "colour": "#e67e22"
             },
             {
@@ -56,7 +56,7 @@
         ],
         "Crownguard": [
             {
-                "avatar": "https://cdn.discordapp.com/avatars/151452441416695809/eb132bf750e91f8aee8fd73f81514bd4.webp?size=1024",
+                "avatar": "https://cdn.discordapp.com/avatars/151452441416695809/9a066cf334eaa19b096fadb9857ce15a.webp?size=1024",
                 "name": "Temari",
                 "name_id": "Temari - 151452441416695809",
                 "status": "online",
@@ -82,7 +82,7 @@
                 "avatar": "https://cdn.discordapp.com/avatars/178543105857814528/ea04881b0b44e445d35d24df37217bc7.webp?size=1024",
                 "name": "Iratan",
                 "name_id": "Iratan - 178543105857814528",
-                "status": "offline",
+                "status": "online",
                 "colour": "#923200"
             },
             {
@@ -93,9 +93,9 @@
                 "colour": "#923200"
             },
             {
-                "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/6b0940378c0045887f990905e9e519ad.webp?size=1024",
-                "name": "Deltest",
-                "name_id": "Deltest - 708123012989190194",
+                "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
+                "name": "Botux",
+                "name_id": "Botux - 708123012989190194",
                 "status": "online",
                 "colour": "#923200"
             }
@@ -109,10 +109,10 @@
                 "colour": "#992d22"
             },
             {
-                "avatar": "https://cdn.discordapp.com/avatars/269899184713236480/625805f58abb385cff10e31141d27009.webp?size=1024",
+                "avatar": "https://cdn.discordapp.com/avatars/269899184713236480/4899625b0ef24d2b5ec7c51f73015292.webp?size=1024",
                 "name": "Fu",
                 "name_id": "Fu - 269899184713236480",
-                "status": "offline",
+                "status": "dnd",
                 "colour": "#992d22"
             }
         ]
