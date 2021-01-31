@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<script type="text/javascript" src="../static/js/comm.js"></script>
+
+	<div class="comm input_section">
+
+		<input type="text" class="CommInput" id="guild_input" reference="guild" spellcheck="false" list="guild_datalist" placeholder="Entrez le serveur">
+		<datalist id="guild_datalist">
+			{% for guild in guild_list %}
+				<option>{{ guild.name }}</option>
+			{% endfor %}
+		</datalist>
+
+		<input type="text" class="CommInput" id="channel_input" reference="channel" spellcheck="false" list="channel_datalist" placeholder="Entrez le channel">
+		<datalist id="channel_datalist">
+			{% for channel in channel_list %}
+				<option>{{ channel.name }}</option>
+			{% endfor %}
+		</datalist>
+
+	</div>
+
+	<div class="comm hsep"></div>
+
+	<div class="container messages" id="section_messages">
+		{% for message in messages %}
+
+					<div class="container_message">
+
+						<div class="container_pp_message">
+							<img class="pp_message" src= {{ message.avatar }} alt ="photo de profil" width=85></img>
+						</div>
+
+						<div class="container_entete_message">
+							<div class="pseudo_message" style="color: {{ message.colour }} ;"> {{ message.name }} </div>
+							<div class="horaire_message"> {{ message.date }} </div>
+						</div>
+
+						<div class="container_content_message"> 
+							{% for content in message.content %}
+								<div class="content_message"> {{ content }} </div>
+							{% endfor %} 
+							
+							{% for attach in message.attachements %}
+								<div class="container_attach_message"><img class="attach_message" src= {{ attach.url }} alt = "{{ attach.name }}"></img></div>
+							{% endfor %} 
+						</div>
+
+					</div>
+
+				<div style="clear:both;"></div>
+		{% endfor %} 
+	</div>
+
+	<div class="container sendMessage">
+		<textarea id="sendMessageInput" placeholder="!!! Séléctionnez un serveur et un channel !!!" disabled></textarea>
+	</div>
+
+
+{% endblock %}
