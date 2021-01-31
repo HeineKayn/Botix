@@ -262,24 +262,6 @@ async def fortune_shuffle():
 		pass
 	return redirect(url_for('fortune'))
 
-# @app.route("/fortune/<id_coffre>")
-# @login_required
-# async def fortune_open(id_coffre):
-
-# 	id_coffre = int(id_coffre) - 1
-
-# 	try : 
-# 		with open('./static/coffres.txt') as json_file:
-# 			coffres = json.load(json_file)
-# 			coffres[id_coffre]["open"] = True
-
-# 		with open('./static/coffres.txt', 'w') as outfile:
-#    			json.dump(coffres, outfile, indent=4)
-# 	except : 
-# 		pass
-
-# 	return redirect(url_for('fortune'))
-
 @app.route('/fortune_open', methods=['POST'])
 @login_required
 async def fortune_open():
@@ -314,7 +296,7 @@ async def use_key():
 
 		if key_exist : 
 
-			#coffres.remove(key)
+			coffres.remove(key)
 			with open('./static/keys.txt', 'w') as outfile:
 				json.dump(coffres, outfile, indent=4)
 
@@ -322,6 +304,107 @@ async def use_key():
 		pass
 
 	return {"key_exist" : key_exist}
+
+@app.route("/config")
+@login_required
+async def config():
+	config = await app.ipc_node.request("get_config")
+	return await render_template('config.html',config=config)
+
+@app.route("/config_element", methods=['POST'])
+@login_required
+async def config_element():
+	req = await request.form
+	dic = {req["name"] : req["value"]}
+	await app.ipc_node.request("set_config",config=dic)
+	return {}
+
+import random
+
+@app.route("/generate_key", methods=['POST'])
+@login_required
+async def generate_key():
+	req = await request.form
+	nb = int(req["number"])
+	path = './static/keys.txt'
+
+	try : 
+		with open(path) as json_file:
+			keys = json.load(json_file)	
+	
+	except : 
+		keys = []
+
+	for i in range(nb):
+		key = ""
+		possible = list(range(48,58)) + list(range(65,91))
+		for i in range(4):
+			for j in range(4):
+				key += chr(random.choice(possible))
+			key += "~"
+		key = key[:-1]
+		keys.append(key)
+
+	try :
+		with open(path, 'w') as outfile:
+			json.dump(keys, outfile, indent=4)
+	except:
+		pass
+
+	return {"generated" : nb}
+
+@app.route("/communiquer")
+@login_required
+async def communiquer():
+	guild_list = await get_guilds()
+	return await render_template('communiquer.html',guild_list=guild_list)
+
+# @app.route("/communiquer")
+# @app.route("/communiquer/<guild>/<channel>")
+# @login_required
+# async def communiquer(guild="",channel=""):
+# 	guild_list = await get_guilds()
+
+# 	if channel != "":
+# 		messages = await get_last_messages(guild,channel,100)
+# 	else :
+# 		messages = []
+
+# 	return await render_template('communiquer.html',guild_list=guild_list,guild=guild,channel=channel,messages=messages)
+
+@app.route("/select_guild", methods=['POST'])
+@login_required
+async def select_guild():
+	req = await request.form
+	selected_guild = req["guild"]
+	guild_list = await get_guilds()
+	channel_list = []
+	for guild in guild_list :
+		if selected_guild == guild["name"]:
+			channel_list = await get_channels(selected_guild)
+			break
+	return {"channel_list" : channel_list}
+
+@app.route("/select_channel", methods=['POST'])
+@login_required
+async def select_channel():
+	req = await request.form
+	guild = req["guild"]
+	channel = req["channel"]
+	messages = await get_last_messages(guild,channel,100)
+	return {"messages" : messages}
+
+@app.route("/send_message", methods=['POST'])
+@login_required
+async def send_message():
+	req = await request.form
+	await app.ipc_node.request("send_message",guild=req["guild"],channel=req["channel"],message=req["content"])
+	return {}
+
+@app.route("/logs")
+@login_required
+async def logs():
+	return await render_template('logs.html')
 
 # ---------------
 
