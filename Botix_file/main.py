@@ -184,9 +184,11 @@ async def get_guilds(data):
 
 	guilds = []
 	for guild in bot.guilds :
-		guild_dic		 = {}
-		guild_dic["icon"] = str(guild.icon_url)
+		guild_dic		  = {}
 		guild_dic["name"] = guild.name
+		guild_dic["icon"] = str(guild.icon_url)
+		if not guild.icon :
+			guild_dic["icon"] = "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
 		guilds.append(guild_dic)
 
 	Update_json(file,guilds)

@@ -27,6 +27,7 @@ function Select(target){
 
             const sendInput = document.getElementById("sendMessageInput");
             const section = document.getElementById("section_messages");
+            const innerSection = document.createElement("div");
             channel = target.value;
 
             $.post('/select_channel', {"guild" : guild, "channel" : target.value}).done(function(response) {
@@ -82,11 +83,15 @@ function Select(target){
                     container.appendChild(container_entete);
                     container.appendChild(container_content);
                     container.appendChild(clear);
-                    section.innerHTML = "";
-                    section.appendChild(container);
+                    innerSection.appendChild(container);
+
                 });
+                section.innerHTML = "";
+                section.appendChild(innerSection);
+
                 updateScroll();
                 sendInput.disabled = false;
+
 
             }).fail(function() {
                 console.log("Ce channel n'existe pas")

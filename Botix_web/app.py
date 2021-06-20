@@ -171,6 +171,12 @@ async def get_last_messages(guild="bdo",channel="général",limit=100):
 
 	return messages
 
+async def get_bombes():
+	path = "../Botix_file/annexes/musiques"
+	files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+	files = [f.split(".mp3")[0] for f in files]
+	return files
+
 # ---------------
 
 @app.route("/")
@@ -400,6 +406,13 @@ async def send_message():
 	req = await request.form
 	await app.ipc_node.request("send_message",guild=req["guild"],channel=req["channel"],message=req["content"])
 	return {}
+
+@app.route("/musique")
+@login_required
+async def musique():
+	guild_list = await get_guilds()
+	bombes = await get_bombes()
+	return await render_template('musique.html',serveurs=guild_list,bombes=bombes)
 
 @app.route("/logs")
 @login_required

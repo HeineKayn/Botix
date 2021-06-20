@@ -1,5 +1,10 @@
 /* GENERAL*/
 
+@font-face {
+ 	font-family: Beaufort;
+ 	src: url("../fonts/Beaufort.ttf");     
+}
+
 * {
 	font-family : Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -726,4 +731,156 @@ input:placeholder-shown{
 	border-width:0px;
 	border:none;
 	color: #c0c0c0;
+}
+
+/* MUSIQUE */
+
+/* Partie serveur */
+#server_container {
+	width : 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+  	justify-content: center;
+	display:flex;
+}
+
+#server_separator {
+	width: 90%;
+}
+
+.server.hsep{
+	width: 100%;
+    height: 1px;
+    background-color: #2b2e33
+}
+
+#server_list{
+	overflow-x: auto;
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.server_select {
+	display: flex;
+    float: left;
+}
+
+.server_select > img {
+	margin: 5px 5px;
+	width : max(4.5vw,60px);
+  	height: max(4.5vw,60px);
+	object-fit:cover;
+	border-radius: 50%;
+	border : solid #2f3136;
+	background-color: #ffffff9c;
+}
+
+/* Partie musique */
+#musique_all{
+	margin-top: 30px;
+	height: 80%;
+}
+
+.musique_part {
+	height: 100%;
+	float:left;
+	display: flex;
+  	justify-content: center;
+}
+
+.musique_manage{
+	width:80%;
+	align-items: center;
+  	justify-content: center;
+}
+
+#left {
+	width:30%;
+}
+
+#right {
+	width:70%;
+}
+
+/* Partie gestion de la musique*/
+.mbox {
+	width:100%;
+	border : solid 1px black;
+	background-color: hsl(223deg 7% 20%);
+	float:left;
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+  	font-family: Beaufort;
+}
+
+.mbox.manage{
+	padding : 0.3vw 0px;
+	font-size: 1.5vw;
+	margin-bottom: 5%;
+}
+
+#channels.mbox {
+	color : hsl(220deg 2% 33%);
+	justify-content: space-between;
+}
+
+.down_arrow{
+	width:8%;
+	margin:0px 8%;
+}
+
+#deconnecte.mbox {
+	background-color : #7b2c2c;
+	color : #a44444;
+}
+
+#musique_button_container{
+	width: 100%;
+	display: inline-flex;
+    justify-content: space-between;
+}
+
+.musique_button{
+	display: flex;
+	justify-content: center;
+}
+
+.musique_button > img {
+	width: 80%;
+}
+
+/* Partie Music Bomb*/
+
+#musique_bombe_section{
+	width:100%;
+	height: 72%;
+	margin-top: 10%;
+}
+
+#musique_bombe_title{
+	display:flex;
+	justify-content: center;
+	font-family: Beaufort;
+	font-size: 2vw;
+	margin-bottom: 8%;
+}
+
+#musique_bombe_container{
+	height: 70%;
+	overflow-y: auto;
+	display:flex;
+	justify-content: center;
+}
+
+#musique_bombes{
+	width: 90%;
+}
+
+.mbox.bombe{
+	margin: 3%;
+	width: 4vw;
+	height: 4vw;
 }

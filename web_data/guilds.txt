@@ -1,17 +1,17 @@
 {
-    "time": "2021/01/30 20:02:09",
+    "time": "2021/04/27 17:45:10",
     "content": [
         {
-            "icon": "",
-            "name": "bdo"
+            "name": "bdo",
+            "icon": "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
         },
         {
-            "icon": "",
-            "name": "Botix Showcase"
+            "name": "Botix Showcase",
+            "icon": "https://cdn.discordapp.com/icons/681487709004497013/8603dc789263146745415a72d2d36fb6.webp?size=1024"
         },
         {
-            "icon": "",
-            "name": "Limite Limite Demacien"
+            "name": "Limite Limite Demacien",
+            "icon": "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
         }
     ]
 }
