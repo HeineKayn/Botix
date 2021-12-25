@@ -8,11 +8,14 @@ import os
 from discord.ext.ipc import Server
 from datetime import datetime
 
+import aiohttp
+
 # ---------------
 
 import aiomysql
 import sys
 import os 
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -22,13 +25,15 @@ password = os.getenv('DB_Password')
 host = os.getenv('DB_Host')
 port = int(os.getenv('DB_Port'))
 
+ipc_pass = os.getenv('IPC_Pass')
+
 # --------------
 
 TOKEN = os.getenv('Test_Token')
-
 intents = discord.Intents.all()
 
 initial_extensions = [#'cogs.ipc',
+					  'cogs.dm',
 					  'cogs.memo']
 
 class Bot(commands.Bot):
@@ -42,6 +47,8 @@ class Bot(commands.Bot):
 		for guild in bot.guilds:
 			print(" {} : {} \n".format(guild.name,guild.id))
 
+
+		# ====  Base de donnée
 		self.conn = await aiomysql.connect(host=host, 
 										   port=port,
 										   user=user, 
@@ -50,6 +57,7 @@ class Bot(commands.Bot):
 
 		self.cur = await self.conn.cursor() 
 		print("Connecté à la base de donnée")
+		# ====
 
 		if __name__ == '__main__': # si le fichier est directement éxécuté et pas importé
 			for extension in initial_extensions:
@@ -60,7 +68,28 @@ class Bot(commands.Bot):
 
 
 bot = Bot(command_prefix=['$','£'],intents=intents, description='Super Bot pouah',owner_id='174112128548995072')
-bot_ipc = Server(bot, "localhost", 8765, "SALUT")
+bot_ipc = Server(bot, "localhost", 8765, ipc_pass)
+
+# --------------
+
+from datetime import datetime
+
+def Update_json(file,content):
+	path = "../web_data/{}".format(file)
+	date_format = "%Y/%m/%d %H:%M:%S" 
+
+	# crée les dossiers si ils existent pas
+	try : 
+		os.makedirs("/".join(path.split("/")[:-1]))
+	except :
+		pass
+
+	new_content = {"time" : datetime.now().strftime(date_format), "content" : content}
+
+	with open(path, 'w') as outfile:
+		json.dump(new_content, outfile, indent=4)
+
+# --------------
 
 @bot_ipc.route()
 async def get_last_messages(data):
@@ -68,48 +97,58 @@ async def get_last_messages(data):
 	server_name  = data.server		
 	channel_name = data.channel
 
-	guild   = discord.utils.get(bot.guilds, name = server_name)
-	channel = discord.utils.get(guild.channels, name = channel_name)
+	file = "messages/{}/{}.txt".format(server_name,channel_name)
 
-	historique = []
-	messages = await channel.history(limit=limit).flatten()
-	for message in messages:
-		histo_dic				= {}
-		histo_dic["avatar"]		= str(message.author.avatar_url)
-		histo_dic["name"]		= message.author.name
-		histo_dic["content"]	= [message.clean_content]
-		histo_dic["colour"]	 	= str(message.author.colour)
+	try : 
+		guild   = discord.utils.get(bot.guilds, name = server_name)
+		channel = discord.utils.get(guild.channels, name = channel_name)
 
-		histo_dic["attachements"]			= []
-		for attach in message.attachments :
+		historique = []
+		messages = await channel.history(limit=limit).flatten()
+		for message in messages:
+			histo_dic				= {}
+			histo_dic["avatar"]		= str(message.author.avatar_url)
+			histo_dic["name"]		= message.author.name
+			histo_dic["content"]	= [message.clean_content]
+			histo_dic["colour"]	 	= str(message.author.colour)
 
-			attach_dic 			= {}
-			attach_dic["name"] 	= attach.filename
-			attach_dic["url"] 	= attach.url
-			histo_dic ["attachements"].append(attach_dic) 
+			histo_dic["attachements"] = []
+			for attach in message.attachments :
 
-		decal_today = (datetime.now() - message.created_at).days
-		if decal_today == 0 :
-			date = message.created_at.strftime("Aujourd'hui à %H:%M")
-		elif decal_today == 1:
-			date = message.created_at.strftime("Hier à %H:%M")
-		elif decal_today == 2:
-			date = message.created_at.strftime("Avant-hier à %H:%M")
-		else :
-			date = message.created_at.strftime("%d/%m/%Y")
+				attach_dic 			= {}
+				attach_dic["name"] 	= attach.filename
+				attach_dic["url"] 	= attach.url
+				histo_dic ["attachements"].append(attach_dic) 
 
-		histo_dic["date"] = date
-		historique.append(histo_dic)
+			decal_today = (datetime.now() - message.created_at).days
+			if decal_today == 0 :
+				date = message.created_at.strftime("Aujourd'hui à %H:%M")
+			elif decal_today == 1:
+				date = message.created_at.strftime("Hier à %H:%M")
+			elif decal_today == 2:
+				date = message.created_at.strftime("Avant-hier à %H:%M")
+			else :
+				date = message.created_at.strftime("%d/%m/%Y")
 
-	return historique
+			histo_dic["date"] = date
+			historique.append(histo_dic)
+
+		Update_json(file,historique)
+
+	except:
+		pass
 
 @bot_ipc.route()
 async def get_demaciens(data):
-	demaciens = []
-	try : 
-		server_name  = data.server 
-		channel_name = data.channel  
+	server_name  = data.server 
+	channel_name = data.channel 
 
+	maisons = ["Vayne","Buvelle","Crownguard","Laurent","Cloudfield"]
+	demaciens = {}
+
+	file = "demaciens/{}/{}.txt".format(server_name,channel_name)
+
+	try :  
 		guild   = discord.utils.get(bot.guilds, name = server_name)
 		channel = discord.utils.get(guild.channels, name = channel_name)
 		role = discord.utils.get(guild.roles, name = "Demacien")
@@ -121,78 +160,75 @@ async def get_demaciens(data):
 			demacien_dic["avatar"]	= str(member.avatar_url)
 			demacien_dic["name"]	= member.name
 			demacien_dic["name_id"]	= "{} - {}".format(member.name,member.id)
-			demaciens.append(demacien_dic)
-	except : 
-		pass
-
-	return demaciens
-
-@bot_ipc.route()
-async def get_onlines(data):
-	server_name  = data.server 
-	channel_name = data.channel  
-
-	maisons = ["Vayne","Buvelle","Crownguard","Laurent","Cloudfield"]
-	guild   = discord.utils.get(bot.guilds, name = server_name)
-	channel = discord.utils.get(guild.channels, name = channel_name)
-	role = discord.utils.get(guild.roles, name = "Demacien")
-
-	onlines = {}
-
-	members = [x for x in channel.members if role in x.roles]
-	for member in members:
-
-		if member.raw_status != "offline" :
-			online_dic				= {}
-			online_dic["avatar"]	= str(member.avatar_url)
-			online_dic["name"]		= member.name
-			online_dic["status"]	= member.raw_status
-			online_dic["colour"]	= str(member.colour)
-
+			demacien_dic["status"]	= member.raw_status
+			demacien_dic["colour"]	= str(member.colour)
+			
 			try :
 				maison  = [str(x) for x in member.roles if str(x) in maisons][0]
 			except :
 				maison = "Demacien"
 
-			if maison in onlines:
-				onlines[maison] += [online_dic]
+			if maison in demaciens:
+				demaciens[maison] += [demacien_dic]
 			else : 
-				onlines[maison] = [online_dic]
+				demaciens[maison] = [demacien_dic]
 
-	return onlines
+		Update_json(file,demaciens)
+
+	except : 
+		pass
 
 @bot_ipc.route()
-async def get_servers_name(data):
-	guild_infos = []
+async def get_guilds(data):
+	file = "guilds.txt"
+
+	guilds = []
 	for guild in bot.guilds :
-		guild_dic		 = {}
-		guild_dic["icon"] = str(guild.icon_url)
+		guild_dic		  = {}
 		guild_dic["name"] = guild.name
-		guild_infos.append(guild_dic)
-	return guild_infos
+		guild_dic["icon"] = str(guild.icon_url)
+		if not guild.icon :
+			guild_dic["icon"] = "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
+		guilds.append(guild_dic)
+
+	Update_json(file,guilds)
+		
 
 @bot_ipc.route()
-async def get_channels_name(data):
-	server_name  = data.server		# "The Kingdom Of Demacia"
-	guild   = discord.utils.get(bot.guilds, name = server_name)
+async def get_channels(data):
+	server_name  = data.server
+	file = "guilds/{}.txt".format(server_name)
 
-	channels = []
-	for channel in guild.text_channels : 
-		channels.append(channel.name)
-	return channels
+	try : 
+		guild   = discord.utils.get(bot.guilds, name = server_name)
+		channels = []
+		for channel in guild.text_channels : 
+			channels.append(channel.name)
+
+		Update_json(file,channels)
+
+	except : 
+		pass
+
 
 @bot_ipc.route()
 async def get_memos(data):
 	uid = data.user_id
-	author_tagged = "<@!" + str(uid) + ">"
+	file = "memos/{}.txt".format(uid)
+
+	author_tagged = "@" + bot.get_user(uid).name
 	author_roles = []
 	for guild in bot.guilds : 
 		try : 
-			author = await guild.get_member(uid)
-			author_roles += ["<@&"+str(x.id)+">" for x in author.roles]
+			author = guild.get_member(uid)
+			author_roles += [str(x) for x in author.roles]
 		except:
 			pass
 
+	for i,role in enumerate(author_roles) :
+		if role[0] != "@" :
+			author_roles[i] = "@" + role
+	
 	concerne = author_roles + [author_tagged]
 
 	Q_Memo = """
@@ -218,7 +254,7 @@ async def get_memos(data):
 	await bot.cur.execute(Q_Memo,(DBUser,DBUser,uid,)) # peut être add virgule après
 	query_result = await bot.cur.fetchall()
 
-	list_memos = []
+	memos = []
 	for result in query_result : 
 		(DateCreated, DatePlanned, idGuild, idChannel, idInvoker, Content, idMessage) = result
 		guild = discord.utils.get(bot.guilds, id = idGuild)
@@ -237,8 +273,70 @@ async def get_memos(data):
 		memo_dic = {"created" : DateCreated, "planned" : DatePlanned, "guild" : guild.name, "channel" : channel.name, 
 					"invoker" : invoker_dic, "invoked" : invoked_dic, "content" : Content, "idMessage" : idMessage}
 
-		list_memos.append(memo_dic)
-	return list_memos
+		memos.append(memo_dic)
+	
+	Update_json(file,memos)
+
+@bot_ipc.route()
+async def remove_memo(data):
+	idMessage = data.id_message
+	Q_Remove = """
+					DELETE h 
+					FROM Horaire h 
+					INNER JOIN Info i 
+						ON h.ID = i.idHoraire 
+					WHERE 
+						i.idMessage = (%s)
+					"""
+	await bot.cur.execute(Q_Remove,(idMessage,))
+
+@bot_ipc.route()
+async def get_config(data):
+
+	try : 
+		with open("../web_data/config.txt") as json_file:
+			config = json.load(json_file)
+
+	except:
+		config = {}
+
+	return config
+
+@bot_ipc.route()
+async def set_config(data):
+
+	dic = data.config
+
+	try : 
+		with open("../web_data/config.txt") as json_file:
+			config = json.load(json_file)
+
+		for key,val in dic.items():
+			if config[key] != val :
+				config[key] = val
+
+				if key == "pseudo":
+					await bot.user.edit(username=val)
+
+				elif key == "avatar":
+					async with aiohttp.ClientSession() as session:
+						async with session.get(val) as response:
+							img = await response.read()
+							await bot.user.edit(avatar=img)
+
+		with open("../web_data/config.txt", 'w') as outfile:
+			json.dump(config, outfile, indent=4)
+
+	except:
+		config = {}
+
+	return config
+
+@bot_ipc.route()
+async def send_message(data):
+	guild = discord.utils.get(bot.guilds, name = data.guild)
+	channel = discord.utils.get(guild.channels, name = data.channel)
+	await channel.send(data.message)
 
 ### ----------------------------------
 

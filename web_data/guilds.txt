@@ -1,0 +1,17 @@
+{
+    "time": "2021/12/25 18:06:11",
+    "content": [
+        {
+            "name": "bdo",
+            "icon": "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
+        },
+        {
+            "name": "Botix Showcase",
+            "icon": "https://cdn.discordapp.com/icons/681487709004497013/8603dc789263146745415a72d2d36fb6.webp?size=1024"
+        },
+        {
+            "name": "Limite Limite Demacien",
+            "icon": "https://cdn.discordapp.com/attachments/267700847398486018/813560519520026704/default_server.png"
+        }
+    ]
+}

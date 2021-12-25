@@ -4,9 +4,9 @@
 
 	<script type="text/javascript" src="../static/js/publique.js"></script>
 
-	<div class="channel_section">
+	<div class="section_channel">
 		<div class="channel_name">🏰 place_publique</div>
-		<div class="verticale_separator"></div>
+		<div class="channel vsep"></div>
 		<div class="channel_description">Lieu principale de discussion</div>
 		<div class="img_outils">
 			<img src="../static/image/notif.png" alt ="image notification" width=85></img>
@@ -15,10 +15,10 @@
 			<img src="../static/image/notifications.png" alt ="image notification" width=35></img>
 			<img src="../static/image/help.png" alt ="help" width=30 class="help_icon"></img>
 		</div>
-		<div class="horizontale_separator"></div>
+		<div class="channel hsep"></div>
 	</div>
 
-	<div class="messages_section">
+	<div class="section_messages">
 		{% for message in messages %}
 
 					<div class="container_message">
@@ -51,20 +51,24 @@
 
 	<div class="online_bar"> 
 
-		{% for name_maison,online_list in onlines.items() %}
+		{% for name_maison, demaciens in demacien_list.items() %}
 			<div class="bloc_maison">
 
 				<div class="container_header_maison">
-					<div class="header_maison" id={{ name_maison }}>{{ name_maison }}-{{ online_list|length }}</div>
+					<div class="header_maison" id={{ name_maison }}>{{ name_maison }}-{{ demaciens|length }}</div>
 				</div>
 
-				{% for online in online_list %}
-					<div class="container_bloc_personne">
-						<div class="bloc_personne">
-							<img class="pp_online" src = {{ online.avatar }} width=40></img>
-							<div class="pseudo_online" style="color: {{ online.colour }};">{{ online.name }}</div>
+				{% for demacien in demaciens %}
+
+					{% if demacien.status != "offline" %}
+						<div class="container_bloc_personne">
+							<div class="bloc_personne">
+								<img class="pp_online" src = {{ demacien.avatar }} width=40></img>
+								<div class="pseudo_online" style="color: {{ demacien.colour }};">{{ demacien.name }}</div>
+							</div>
 						</div>
-					</div>
+					{% endif %}
+
 				{% endfor %}
 			</div>
 		{% endfor %}
