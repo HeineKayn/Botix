@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<script type="text/javascript" src="../static/js/memo.js"></script>
+
+	<div class="memo_section">
+		<div class="memo_top">
+			<div class="memo_subject_text">Mémos de :</div>
+			<input type="text" id="SearchSubjectInput" spellcheck="false" list="saved_profile" placeholder="Entrez l'ID d'un membre">
+			<datalist id="saved_profile">
+				{% for name_maison, demaciens in demacien_list.items() %}
+                    {% for demacien in demaciens %}
+					   <option> {{ demacien.name_id }}</option>
+                    {% endfor %}
+				{% endfor %}
+			</datalist>
+		</div>
+
+		<div class="memo_body">
+			{% for memo in memos %}
+
+                <div class="memo_wrapper">
+
+                    <div class="memo_delete" indexValue={{ memo.idMessage }} onclick="RemoveMemo(this)">
+                        <img src="../static/image/delete_memo.png" alt ="delete_memo" width=30></img>
+                    </div>
+
+                    <div class="memo_color_bar"></div>
+
+                    <div class="memo_container">
+
+                        <div class="memo_container_top">
+                        	<div class="memo_invoker"> 
+                        		<div class="memo_invoker_pp_container">
+                        			<img class="memo_pp" src= {{ memo.invoker.avatar }} alt ="photo de profil"></img>
+                        		</div>
+                        		<div class="memo_name">{{ memo.invoker.name }}</div>
+                        	</div>
+
+                        	<div class="memo_invoked"> 
+                        		<div class="memo_invoked_pp_container">
+                        			<img class="memo_pp" src= {{ memo.invoked.avatar }} alt ="photo de profil"></img>
+                        		</div>
+                        		<div class="memo_name">{{ memo.invoked.name }}</div>
+                        	</div>
+
+                        	<div class="memo_created">Le {{ memo.created }}</div>
+                        	<div class="memo_planned">Crée le {{ memo.planned }}</div>
+                            <div class="memo_info">
+                            	<div class="memo_guild">Serveur = {{ memo.guild }}</div>
+                                <div> - </div>
+                            	<div class="memo_channel">Channel = {{ memo.channel }}</div>
+                            </div>
+                        	<div class="memo_idMessage"> {{ memo.idMessage }}</div>
+                        </div>
+
+                    	<div class="memo_content"> {{ memo.content }}</div>
+
+                    </div>
+
+                </div>
+            {% endfor %}
+		</div>
+
+	</div>
+
+{% endblock %}
+

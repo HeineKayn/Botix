@@ -22,6 +22,15 @@ app.config.from_mapping(QUART_AUTH_COOKIE_SECURE    = False)
 
 # ---------------
 
+from discord.ext.ipc import Client
+
+ipc_pass = os.getenv('IPC_Pass')
+global ipc_client 
+ipc_client = Client(secret_key = ipc_pass)
+app.config["ipc_client"] = ipc_client
+
+# ---------------
+
 from botix import botixBP
 app.register_blueprint(botixBP,url_prefix='/botix')
 
@@ -30,7 +39,7 @@ app.register_blueprint(botixBP,url_prefix='/botix')
 # Default route
 @app.route("/")
 def default():
-	return redirect("/botix")
+	return redirect("/botix/communiquer")
 
 # ---------------
 
