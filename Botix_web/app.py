@@ -263,7 +263,7 @@ async def fortune_shuffle():
 			random.shuffle(coffres)
 
 		with open('./static/coffres.txt', 'w') as outfile:
-   			json.dump(coffres, outfile, indent=4)
+			json.dump(coffres, outfile, indent=4)
 	except : 
 		pass
 	return redirect(url_for('fortune'))

@@ -1,16 +1,26 @@
 [
     {
         "content": "Photo dedicace",
-        "open": true,
+        "open": false,
         "image": ""
     },
     {
         "content": "Photo dedicace",
-        "open": true,
+        "open": false,
         "image": ""
     },
     {
         "content": "Photo dedicace",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
+        "open": false,
+        "image": ""
+    },
+    {
+        "content": "Role custom",
         "open": false,
         "image": ""
     },
@@ -30,6 +40,11 @@
         "image": ""
     },
     {
+        "content": "Photo dedicace",
+        "open": true,
+        "image": ""
+    },
+    {
         "content": "100 points",
         "open": false,
         "image": ""
@@ -40,27 +55,12 @@
         "image": ""
     },
     {
-        "content": "Role custom",
-        "open": false,
-        "image": ""
-    },
-    {
-        "content": "Role custom",
-        "open": false,
-        "image": ""
-    },
-    {
         "content": "Photo dedicace",
-        "open": false,
+        "open": true,
         "image": ""
     },
     {
         "content": "Role custom",
-        "open": false,
-        "image": ""
-    },
-    {
-        "content": "Photo dedicace",
         "open": false,
         "image": ""
     }

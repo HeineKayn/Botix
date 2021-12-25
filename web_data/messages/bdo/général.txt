@@ -1,128 +1,823 @@
 {
-    "time": "2021/04/27 17:45:00",
+    "time": "2021/12/25 18:06:15",
     "content": [
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
+            "name": "Botux",
+            "content": [
+                "salut"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "Aujourd'hui \u00e0 17:04"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Ugh69mSS8xxj"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "Avant-hier \u00e0 20:54"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG20211222211336.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/923307356920615032/IMG20211222211336.jpg"
+                }
+            ],
+            "date": "Avant-hier \u00e0 20:13"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "81 rue des gardes Albi batiment B2 dernier \u00e9tage"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "19/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "pareil ban \nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-ban-vo/"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "pareil vo\nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-choose-vo"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "id\u00e9es jeu sympa :\nfaut retrouver quel champion associ\u00e9 \u00e0 l'audio (id = celui du champion dans ma bdd)\nhttps://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-sfx-audios"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "equip gun/sword drifter outfit"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "\"pogo\" down attack nail 5-8 times"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "kick/punch mummy\nrun w/o trap damage taker\ndown slam tombstone graveyard\nface flask at low hp"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "received_1569021880113499.jpeg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/918950842198020176/received_1569021880113499.jpeg"
+                }
+            ],
+            "date": "10/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "https://discord.gg/Ymgnfz5QCq"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "07/12/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG20211129172909.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/914919151359889429/IMG20211129172909.jpg"
+                }
+            ],
+            "date": "29/11/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "https://www.youtube.com/watch?v=N6cZcw8_XtM"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "22/11/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "vps https://www.oracle.com/fr/cloud/free/"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "15/11/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
+            "name": "Botux",
+            "content": [
+                "euh"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "26/10/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210921_214631.png",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/902327680190521414/IMG_20210921_214631.png"
+                }
+            ],
+            "date": "25/10/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210830_065126_212.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/902327229218967595/IMG_20210830_065126_212.jpg"
+                }
+            ],
+            "date": "25/10/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "L\u2019adresse est 81 bvd Lazare Carnot, faut m\u2019appeler ou envoyer un message quand vous \u00eates la, car il faut les cl\u00e9s pour monter dans l\u2019ascenseur ahah\n\nmon num\u00e9ro est 07 69 98 69 22"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "20/10/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "https://www.youtube.com/watch?v=O2LiQQ2DV00"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "10/10/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Bdo"
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20180310_212318.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/884603860822421554/IMG_20180310_212318.jpg"
+                }
+            ],
+            "date": "07/09/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "aaa salut"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "30/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "salut les potes"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "30/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Jeux styl\u00e9s : \nAdore\nDungeonmans"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "28/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "eto-9818a2eb-3611-4cdf-8d82-0e1242f72f08.pdf",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/874640649809453136/eto-9818a2eb-3611-4cdf-8d82-0e1242f72f08.pdf"
+                }
+            ],
+            "date": "10/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "pas besoin thread server qui tourne pour chaque client tout le temps \n-> faire un thread \u00e0 chaque action (while qui attend rep)"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "08/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!subscribe #g\u00e9n\u00e9ral pierre_mrsaaaa"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!subscribe g\u00e9n\u00e9ral pierre_mrsaaaa"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!subscribe pierre_mrsaaaa test"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [
+                {
+                    "name": "TikTok.mp4",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/872896257750888488/TikTok.mp4"
+                }
+            ],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                "<:online:656613916004319244> **Found `6` Recent Videos** :mag_right: `@pierre_mrsaaaa...`"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!recent pierre_mrsaaaa"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                "<:online:656613916004319244> **Found User** :mag_right: `@pierre_mrsaaaa`"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!user pierre_mrsaaaa"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                "<:offline:656613916037873664> **Failed Search** :mag_right: `@pierre_marsaa` :open_mouth:"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!user pierre_marsaa"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "t!help"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/821911085048660038/b0f358e7de18431dc584d8e31cc8b48d.webp?size=1024",
+            "name": "Tricorder",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/699844962057060393/6945022c536273f2910e2eb0bf087608.webp?size=1024",
+            "name": "Kable",
+            "content": [
+                ""
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "05/08/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "afficher pseudo au dessu"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "22/07/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "reconnexion auto"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "22/07/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "/!\\ pas de collision sur les bords"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "20/07/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "atypical"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "20/07/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "programme qui entend audio ordi + mon micro\net si y'a des mots dit alors \u00e7a fait un truc"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "18/07/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "https://www.youtube.com/watch?v=KcjvbrYXDuk"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "24/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Resume = \nSUMMARIZE(F_DOCLIGNE, \nF_DOCLIGNE[CT_Num],\nF_COMPTET[CT_Intitule], \n\"A payer\", SUM(F_DOCLIGNE[DL_MontantTTC]), \n\"D\u00e9j\u00e0 pay\u00e9\", SUM(F_CREGLEMENT[RG_Montant]))"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "23/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "E4bKij7X0AIijkj.jpeg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/856600499843104788/E4bKij7X0AIijkj.jpeg"
+                }
+            ],
+            "date": "21/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "received_275278810950337.jpeg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/850774921117827092/received_275278810950337.jpeg"
+                }
+            ],
+            "date": "05/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210602_141323.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/850723422543020092/IMG_20210602_141323.jpg"
+                }
+            ],
+            "date": "05/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210602_141400.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/850723360136101948/IMG_20210602_141400.jpg"
+                }
+            ],
+            "date": "05/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210602_150723.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/850723326006526002/IMG_20210602_150723.jpg"
+                }
+            ],
+            "date": "05/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210602_150813.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/850723293832937472/IMG_20210602_150813.jpg"
+                }
+            ],
+            "date": "05/06/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [
+                {
+                    "name": "IMG_20210525_093530.jpg",
+                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/848544880041132032/IMG_20210525_093530.jpg"
+                }
+            ],
+            "date": "30/05/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "- ArcInspectorFactory.getAllFilters().get(0) -> limiter voiture/pied\n- Empty et Single possible ?\n- Faire plusieurs P avec les chemins de Toulouse\n- Faire les tests"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "11/05/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "- Perdu lunette 10 min chercher\n- Dofus avec moi je paie abo, jou\u00e9 toute la journ\u00e9e ajd\n- T'as fait quoi ajd je pari Genshin\n- Me mettre \u00e0 Genshin ptet\n- Se voir irl, promis bi\u00e8re, bars ouverts\n- Concours d'anecdotes je suis trop fort je mens bien\n- Tierlist jojo\n- Anglais vid\u00e9o\n- Stage le mec me parle comme si j'\u00e9tais son frat\u00e9\n- Anime/film \u00e0 me conseiller"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "06/05/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "sky high survival\njojo\ndiscord donc gameuse\nmaladie, \u00e7a va hopital ?"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "01/05/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "tr\u00e8fle 5 feuilles, goujon, sauge, poisson chaton bank"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "30/04/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "abra ancestrale\nmagik riktus\nbr no stuff\nfri\u00b2\nbwork chelou"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "30/04/2021"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "- br sans stuff (cachet du bizut 40 000 en hdv)\n- dragoeuf\n- craq\n- dj brumen\n- dj inconnu l\u00e0\n- otomai nord"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Aujourd'hui \u00e0 00:57"
+            "date": "27/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "perco bwork blop"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Hier \u00e0 14:13"
+            "date": "26/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "Aussi rat bonta et brak"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Hier \u00e0 03:02"
+            "date": "26/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "Manque plus que :\n- Os de corcodaille (1) -> Mar\u00e9cages\n- Museau Rat luisant (6) -> Rat amakna"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Hier \u00e0 03:02"
+            "date": "26/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "minouki air et terre\n-> mettre les sorts broken ?"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Hier \u00e0 18:08"
+            "date": "25/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "blop terre + truc"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 02:18"
+            "date": "25/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "restat terre lv 55 ?"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 02:18"
+            "date": "25/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "pano coco"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 02:18"
+            "date": "25/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "vendre carte bonta"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 23:46"
+            "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "-> carte gel\u00e9e \u00e0 bonta"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 22:36"
+            "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "faire les potions d'energie\ndu pain\net un bouclier d\u00e9cent"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 20:13"
+            "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "wabbit\nkwakwa\nlarve"
             ],
             "colour": "#206694",
             "attachements": [],
-            "date": "Avant-hier \u00e0 20:12"
+            "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "estomac tofu ventri"
@@ -132,7 +827,7 @@
             "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "7 bout blop vert"
@@ -142,7 +837,7 @@
             "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "---- langue gargrouille ?"
@@ -152,7 +847,7 @@
             "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "Ouassingue \nCitrouilles\nScara (dj)\nAbra\n\n1 Tissu sombre\n1 Crane de chafer"
@@ -162,7 +857,7 @@
             "date": "24/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "dent de garglyphe , estomac ouassingue, crane chafer"
@@ -172,7 +867,7 @@
             "date": "22/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "cuivre 8, tissu invisible 2, jus goutu 1, rondelle milirat strub 1, sourimi 10, 1 oeil raman, boo, vilinsekt 8"
@@ -182,7 +877,7 @@
             "date": "22/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "BDD \nR\u00e9seau\nmulti thread\ngraphes\nordinateur\ninformatique"
@@ -192,7 +887,7 @@
             "date": "16/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "https://www.youtube.com/watch?v=RP1f8E4iCvo"
@@ -202,7 +897,7 @@
             "date": "15/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "pyinstaller"
@@ -212,7 +907,7 @@
             "date": "04/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "Pynput\nQt"
@@ -222,7 +917,7 @@
             "date": "04/04/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "aaaaaaa"
@@ -232,7 +927,7 @@
             "date": "23/02/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "- bras de fer\n- avion en papier\n- pater \u00e0 modeler\n- coloriage\n- concours de dessin\n- origami"
@@ -242,7 +937,7 @@
             "date": "22/02/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "https://open.spotify.com/playlist/1k4Wl27YmlggdqiQQiVtkH?si=GQnubVNNRIGyRIgw7As1Mw&utm_source=copy-link"
@@ -302,7 +997,7 @@
             "date": "19/02/2021"
         },
         {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/17de30c0624ffb20f542e229ca9b8d12.webp?size=1024",
             "name": "Deltix",
             "content": [
                 "https://discord.gg/Wqf2uPpgNY"
@@ -380,699 +1075,6 @@
             "colour": "#000000",
             "attachements": [],
             "date": "28/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "bonheur"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "28/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "quel"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "28/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "hahahha"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "28/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "hehe"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "28/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "31aad0b30ef8f85663d3a665b0f04b8d.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/803956715577671711/31aad0b30ef8f85663d3a665b0f04b8d.png"
-                }
-            ],
-            "date": "27/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "https://discord.gg/RVVYcpa"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "24/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/797116154823835698/unknown.png"
-                }
-            ],
-            "date": "08/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "- brise glace\n- d\u00e9bat mouvant (question clivante et se mettre dans la salle en fonction position puis justifier leur arguments)\n- \u00e9crrie solutions pour r\u00e9duire le climat, tableau (fort-faible impact, facile-difficile \u00e0 faire)"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "08/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "gharbi.ghada@gmail.com"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "08/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "- sa balade\n- (es-ce que \u00e7a va relativement mieux?)\n- j'ai propos\u00e9 de se voir boir en ville mais ferm\u00e9 ?\n- les rp\n- civ -> autre jeux ?\n- https://www.youtube.com/c/LaMinutedHistoireetMythologie\n- hunger games\n- anniv Fiora -> jeux de soci\u00e9t\u00e9s, \u00e7a faisait longtemps\n- mr robot\n- capitole am\u00e9rique"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "07/01/2021"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "**Notification de @Deltix cr\u00e9\u00e9e le __2020/12/22 \u00e0 02:14__**\nsatrdeuf"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "22/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/708123012989190194/dc03934ca29bb27b42d7942a78672a01.webp?size=1024",
-            "name": "Botux",
-            "content": [
-                "Rappel enregistr\u00e9. \nJe te notifierais le 22/12/2020 \u00e0 02:19"
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "22/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "$bip 5 satrdeuf"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "22/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "https://gitlab.com/pgjones/quart-auth/-/issues/7"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "22/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "a"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "11/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "Faut lui exploser sa gueule \u00e0 ce gros inteur"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "08/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "R\u00e9veillez vous \nMacron destitution\nMacron decapitation\nMacron destitution\nMacron decapitation\nMacron .... putain ... EXPLOSION"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "08/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "sfsf"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "04/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "gyro_dodo_w_fringues.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/784182666194714688/gyro_dodo_w_fringues.png"
-                }
-            ],
-            "date": "03/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "fb49651e-c9c2-484f-829a-1aedc4d7fd15-fish.jpg",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/784182067729793024/fb49651e-c9c2-484f-829a-1aedc4d7fd15-fish.jpg"
-                }
-            ],
-            "date": "03/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "b"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "02/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "b"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "02/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "b"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "02/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "b"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "02/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "huitre"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "02/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "a"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "01/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "a"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "01/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "a"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "01/12/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "chromas : \nfiddle bandito\nlucian farwest\nekko pulsefire\ndragonslayer diana\ndragonslayer xin"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "30/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "pas besoin d'enregistrer en fait, juste mettre les gens qui ont acc\u00e8s la place publique ?"
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/783115167777030174/unknown.png"
-                }
-            ],
-            "date": "30/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "- Tournois des 5 maisons temporaire d\u00e8s D\u00e9cembre (excel), syst\u00e8me de saison (3 mois), maison gagnante en haut du discord, image pour l'introduire\n- Rajouter enjeu/r\u00e9compense : r\u00f4le discord, relancer coffre missfortune (Deltix fait un site pour?) \n\n==== Id\u00e9es coffre missfortune : ====\n\n- X Points\n- Vol de X points\n- \"Salon vocal/textuel \u00e0 son effigie\"\n- M\u00e8che de cheveux d'Ali\u00e9nor\n- Multiplicateur X points events\n- \"Responsable d'un event ?\"\n- VIDE\n- R\u00f4le personnalis\u00e9 (pour X jours)\n- Temari en muse 18h\n- Place dans un \"m\u00e9moriale des vainqueurs\"\n- JACKPOT : [truc de fou]\n- Photo d\u00e9dicac\u00e9e de Starduck (autres Demaciens hype)\n- Cartes Demaciennes restantes\n- ? Poster Demacien\n- ? Merch Demacien"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "28/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "guandao : \nhttps://warframe.fandom.com/wiki/Meso_G2\nhttps://warframe.fandom.com/wiki/Neo_Z6"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "https://warframe.fandom.com/wiki/Lith_D3"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "need farm \u00e7a\ndeathcube+ivara"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "titania - j'ai tout mais faut open"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "nezha - j'ai tout mais faut open"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "atlas prime - tout sauf chassis"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "mesa prime - neuro\nguandao - lame *2\n\nivara prime - neuro\ndethcube - sch\u00e9ma + armure\nbronco - canon\nzhuge prime - shema"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "-> faire de l'overflow sur la div \n-> aller chercher sur internet pour changer l'overflow dans le css\n-> faire avec un syst\u00e8me de route pour les actions \n     (si on veut supprimer un memo \u00e7a nous envoie sur /memo/supprimer/[index])\n-> attention si le site est publique faut cacher pour pas que n'importe qui supprime les m\u00e9mos (authentification)"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "- comment communiquer JS -> flask (et flask -> JS ? pas s\u00fbr si je sais)\n- comment faire une barre d\u00e9filante sur le c\u00f4t\u00e9 dans une div\n- Est-ce que besoin php pour ce que je veux ?"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "```SUPER IDEE\nFaire une int\u00e9 comme \u00e0 l'INSA pour chaque vague avec un th\u00e8me et une identit\u00e9 propre \u00e0 chacune\n-> Activit\u00e9s en lien et images\n```"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "21/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/123591822579597315/fe3359690185ab8a2a38c4955a23aed9.webp?size=1024",
-            "name": "Genesis",
-            "content": [
-                ""
-            ],
-            "colour": "#000000",
-            "attachements": [],
-            "date": "21/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "d\u00e9bat chatelain 2 \n\nS\u00e9parer Repr\u00e9sentation - Animation - Mod\u00e9ration fait que Mod\u00e9ration n'est plus attrayant, juste un fardeau \n- Mod\u00e9rateur pas appr\u00e9ci\u00e9 car se faire recadrer cr\u00e9e souvent frustration \n- Son travail subjectif donc tout le temps remis en question (exemple zephyst qui dit que la plus part actuel sont soit trop brutaux et justifient pas soit trop bisounours et veulent pas se faire d'ennemi)\n- Rien de gratifiant \u00e0 faire la police\n- Beaucoup de pression \n=> Ca donne pas envie de l'\u00eatre \n\nCeux qui veulent quand m\u00eame le faire (exemple Nam)\n- Se rend pas compte de ce que c'est (va sans doute quitter quelques semaines apr\u00e8s\n- N'a pas forc\u00e9ment les qualit\u00e9s (a \u00e9t\u00e9 refus\u00e9 chez les chatelains car pas impartial\n=> Y'a peu de gens avec les comp\u00e9tences, le d\u00e9tachement et l'impartialit\u00e9 n\u00e9cessaire\n\nSi on part du principe que pas besoin impartialit\u00e9 et que \"r\u00e9glement des chatelains\" mettra des limites \n- Vont pas pouvoir faire comme ils veulent car y'aura des restrictions -> frustration\n- Va cr\u00e9e des tensions dans l'\u00e9quipe quand avis trop divergeant \n- Si quelqu'un pas impartial, ne peut pas se mettre \u00e0 la place de l'autre quand y'a une punition, pas p\u00e9dagogique \n\nSeul moyen de faire \"r\u00e9glement des chatelains\" :\n- Soit Temari qui d\u00e9cide arbitrairement chaque d\u00e9cision\n- Soit un r\u00e9glement fixe mais chaque d\u00e9cision unique et on peut pas faire de g\u00e9n\u00e9ralit\u00e9. Si on pouvait faire \u00e7a on l'aurait d\u00e9j\u00e0 fait pour chatelains actuels\n=> Utopie donc il faut que les Modo soient impartials et comp\u00e9tent (donc y'en aura pas beaucoup)"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "15/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "IMG_20201102_165956.jpg",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772852602156482560/IMG_20201102_165956.jpg"
-                },
-                {
-                    "name": "IMG_20201102_165942.jpg",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772852602614448138/IMG_20201102_165942.jpg"
-                },
-                {
-                    "name": "IMG_20201102_165931.jpg",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772852603087880232/IMG_20201102_165931.jpg"
-                }
-            ],
-            "date": "02/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772569800228339762/unknown.png"
-                }
-            ],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772546922489577553/unknown.png"
-                }
-            ],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772534109012099112/unknown.png"
-                }
-            ],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772531375885516830/unknown.png"
-                }
-            ],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "unknown.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/772530315201609778/unknown.png"
-                }
-            ],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "Bilan Meynoze :\n- Certains Chatelains inactifs / Trop de ch\u00e2telains (pas n\u00e9c\u00e9ssaire)\n- Que Temari d\u00e9l\u00e9gue\n\n- Besoin de transparence chatelain vers demacien (essayer de casser l'image de haute et de se m\u00ealer aux gens)\n- Les blagues sur Yugo en cour royale \n- Pas assez de contradiction en r\u00e9union / Le fait de pas se mettre \u00e0 leur place (int\u00e9grer des repr\u00e9sentants de chaque groupes dans la mod\u00e9ration)"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "01/11/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "```id\u00e9e orga ch\u00e2telain \n- Channel pour rec de r\u00e9union -> tous sur yt (prise de note en description)\n- Am\u00e9liorer event -> tournois, + de lore, + de mix de gens, annonce + clair, r\u00e9compense (grade temporaire? cr\u00e9er une sorte de roue missfortune2 ? ) \n- ```"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "```**Bilan r\u00e9u**\n- Trop de ch\u00e2telains -> S\u00e9parer le r\u00f4le en 2\n- \"Tout ce qui est mod\u00e9ration, qui est ch\u00e2telain pose beaucoup de probl\u00e8me de mani\u00e8re g\u00e9n\u00e9rale, y'a beaucoup de gens qui sont pas content, moi y compris\" - Nam, 11:11\n- Il faut un r\u00e8glement fixe auxquels ch\u00e2telains se tiennent -> dans un channel\n- Need tournois des 5 maisons \n- \"Des gens veulent faire des events mais pas ch\u00e2telain donc peuvent pas\" Nam\n- \"La plus part des ch\u00e2telains ne sont pas capables de faire les 3 missions de ch\u00e2telain (repr\u00e9sentation, mod\u00e9ration, events)\" Nam\n- \"Mod\u00e9ration faite \u00e0 moiti\u00e9, punition pure ou peur d'\u00eatre bourreau \" Zephyst\n- \"Il faut des ch\u00e2telains venant de chaque groupe d'ami pour repr\u00e9senter tous les points de vu\" Arsan\n- \"Prison + mute existent plus\" Nam\n```"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "```EVENT FAITHIUM FURBU```\n- r\u00e8gles pas claires (mal r\u00e9dig\u00e9)  \"espion noxien\" \"recherche\" termes qui embrouillent\n- c'\u00e9tait pas clair si les zones en rouge \u00e9taient interdites aux chasseurs ou au Talon, fallait d\u00e9cider et ils ont \u00e9crit \"le chasseur\" \u00e7a pouvait \u00eatre soit talon soit chasseur donc j'ai corrig\u00e9 moi m\u00eame arbitrairement et quand je leur ai expliqu\u00e9 ils ont rien compris\n- \u00e7a aurait \u00e9t\u00e9 plus simple d'imposer les runes pour les chasseurs\n\n- mettre un nombre fixe de talon et esp\u00e9rer avoir pile le nom de chasseur \u00e0 pas de sens -> ajuster en fonction participants\n- annonce event pas clair (explique pas ce que c'est l'event pour ceux qui en ont jamais fait => donne pas envie)\n- inscription aurait \u00e9t\u00e9 beaucoup plus pratique avec doc (quitte \u00e0 avoir un 2\u00e8me \u00e0 c\u00f4t\u00e9 pour valider)\n- ping 2x en 15 min"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "https://discord.com/channels/151453374909382657/575291464129445888/769695823247441970"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "25/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "```\nAnime mangas\nJeux vid\u00e9os\nLivres\nEndroits pr\u00e9f\u00e9r\u00e9s : bar/caf\u00e9 -> lui dire visite quand vacances\nPlat pr\u00e9f\u00e9r\u00e9\nParle combien de langue\nVoyages o\u00f9\nA animaux / fr\u00e8res soeurs\nEn vacances quand ?\nBien son appart ?\n```"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "21/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "<strong>Pay to :</strong>\n                        ACME Biling Co.\n                        123 Main St.\n                        Cityville, NA 12345"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "21/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "<p>\n                            <strong>Customer :</strong>\n                            John Smith\n                            321 Willow Way\n                            Southeast Northwestershire, MA 54321\n                        </p>"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "21/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "tp-pl-3a.ipynb",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/767697481362309150/tp-pl-3a.ipynb"
-                }
-            ],
-            "date": "19/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "# On recopie le tableau dans le nouveau \n    for out_base, out_dic in sdict.a.items() :\n        for in_base, val in out_dic.items() :\n            \n            # On divise les valeurs de toute la ligne par le coeff\n            if out_base == xs :\n                val = val / coeff_xk\n                out_base = xk\n            if in_base == xk:\n                in_base = xs\n        \n            sdict2.a[out_base][in_base] = val"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "19/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "{\n\"shell_cmd\" : \"gcc $file_name -o ${file_base_name}\",\n\"working_dir\" : \"$file_path\",\n \n\"variants\":\n[\n    {\n        \"name\": \"Run\",\n        \"shell_cmd\": \"gcc $file_name -o ${file_base_name} && ${file_path}/${file_base_name}\"\n    }\n]\n}"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "13/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                ""
-            ],
-            "colour": "#206694",
-            "attachements": [
-                {
-                    "name": "tableau_contour.png",
-                    "url": "https://cdn.discordapp.com/attachments/663392854273556493/765319419936112660/tableau_contour.png"
-                }
-            ],
-            "date": "12/10/2020"
-        },
-        {
-            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b68d415cc0f6aa2c2907fb44e927a379.webp?size=1024",
-            "name": "Deltix",
-            "content": [
-                "Peepoodoo"
-            ],
-            "colour": "#206694",
-            "attachements": [],
-            "date": "11/10/2020"
         }
     ]
 }
