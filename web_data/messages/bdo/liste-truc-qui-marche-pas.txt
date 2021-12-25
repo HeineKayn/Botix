@@ -1,0 +1,95 @@
+{
+    "time": "2021/01/28 21:19:04",
+    "content": [
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "- draw incompr\u00e9hensible\n- 3 personnes \u00e0 la fois max ? [ A TESTER ]\n- menu help"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "01/05/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "4 - Si \u00e9galit\u00e9 tour bonus"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "13/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "2 - Chef choisi \"x\" gagnants, \u00e7a marche \u00e7a ?"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "13/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "**1 - Carte Joker**"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "13/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "1 - Pas toujours gagnant qui rejoue (demander si necessaire)"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "10/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "LIMITE LIMITE"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "10/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "(faire un .txt pour stocker les dates \"de plus de 1j\")"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "26/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Memo longues dates -> si le bot est down la file est perdue"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "26/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/b06f5fb24345a63f4ebdeeae61700114.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Ban : Ecrit pas les ban dans le fichier\nMusicbomb : FFMPEG pas encore impl\u00e9ment\u00e9 (attendre que skoali le fasse)"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "05/03/2020"
+        }
+    ]
+}

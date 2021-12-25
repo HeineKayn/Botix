@@ -1,0 +1,275 @@
+{
+    "time": "2021/02/19 18:07:51",
+    "content": [
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nSandrine Scott <scott@insa-toulouse.fr> : [2fas-numerique] S\u00e9ance de suivi p\u00e9dagogique pendant les vacances"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nSandrine Scott <scott@insa-toulouse.fr> : Re: [2fas-numerique] Diverses informations"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nSandrine Scott <scott@insa-toulouse.fr> : [2fas-numerique] Diverses informations"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nStephane Genieys <genieys@insa-toulouse.fr> : [2mic] Sondage : pr\u00e9cision pour les FAS num\u00e9rique"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nStephane Genieys <genieys@insa-toulouse.fr> : [2mic] Sondage des sp\u00e9cialit\u00e9s MIC"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nMarie-Jo HUGUET <huguet@laas.fr> : [2mic] projet 2MIC (Domino-Portrait et Hashiwokakero) et serveur discord"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nAude Rondepierre <Aude.Rondepierre@insa-toulouse.fr> : [2mic] CM3 Signal"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\n\"S. Lachaize\" <slachaiz@insa-toulouse.fr> : [2mic] Ondes : corrections TDs"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "06/04/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/693137107597918228/3f5e2e9a92d62889216b79ca2f15b2f2.webp?size=1024",
+            "name": "Fasteur",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/693137107597918228/3f5e2e9a92d62889216b79ca2f15b2f2.webp?size=1024",
+            "name": "Fasteur",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/693137107597918228/3f5e2e9a92d62889216b79ca2f15b2f2.webp?size=1024",
+            "name": "Fasteur",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2mic]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/693137107597918228/3f5e2e9a92d62889216b79ca2f15b2f2.webp?size=1024",
+            "name": "Fasteur",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2mic]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2mic]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2mic]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/679807004424142891/7bc89f47f40744f048aceddf3f9180bf.webp?size=1024",
+            "name": "BOTIX",
+            "content": [
+                "NOUVEAU MAIL @Notification Mail\nThomas Hoger <thomashoger@hotmail.fr> : [2fas-numerique]"
+            ],
+            "colour": "#000000",
+            "attachements": [],
+            "date": "27/03/2020"
+        }
+    ]
+}

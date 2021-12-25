@@ -1,0 +1,45 @@
+{
+    "time": "2021/10/26 11:25:54",
+    "content": [
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/7a8c0ef8759286c452ba2b7fe5dc804a.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "C'est bon c'est relanc\u00e9 et maintenant vous pouvez faire \n```py\n$rmemo [idMessage qui a cr\u00e9e le m\u00e9mo]```\nvous pouvez trouvez les id d'un message en faisant clic droit dessus avec le mode d\u00e9veloppeur activ\u00e9 sur discord\nou sinon c'est \u00e9crit dans votre memolist"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "24/11/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/7a8c0ef8759286c452ba2b7fe5dc804a.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "(essayez de pas le faire dans Demacia svp je veux que \u00e7a reste secret je vous fait confiance)"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "24/11/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/7a8c0ef8759286c452ba2b7fe5dc804a.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                ""
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "24/11/2020"
+        },
+        {
+            "avatar": "https://cdn.discordapp.com/avatars/174112128548995072/7a8c0ef8759286c452ba2b7fe5dc804a.webp?size=1024",
+            "name": "Deltix",
+            "content": [
+                "Salut @\u200beveryone, d\u00e9sol\u00e9 du ping mais j'ai besoin d'un coup de main\nJe viens de refaire le syst\u00e8me de m\u00e9mo pour le bot et j'aurais besoin que vous l'utilisiez pour voir si il fonctionne sur le moyen terme\n\nVoil\u00e0 la liste des commandes et comment elles marchent\n```\n$alerte [nombre-de-minute] [nombre-d-heure] [nombre-de-jour] blablabla\n$alerte 1 Blablabla```(-> Envoie une notif dans 1 minute)\n\n```$alerte 0 1 blablabla```(-> Envoie une notif dans 1h)\n\n```$rappel 2020/11/24 18:00 blablabla```(-> envoie une notif \u00e0 la date)\n\n```$memolist```(-> montre les m\u00e9mos qui te concernent)\n\n---------------------------\n\n/!\\ Si tu @ quelqu'un ou un r\u00f4le dans une alerte ou un rappel, il sera tag au moment voulu et il verra ces notifs dans $memolist\n\nLes [] c'est des parametres que t'es pas oblig\u00e9 de mettre\nFaut que t'envoies la commande dans un channel o\u00f9 y'a Botix et o\u00f9 il peut lire et \u00e9crire\nEt le ping qu'il te fera sera dans ce channel"
+            ],
+            "colour": "#206694",
+            "attachements": [],
+            "date": "24/11/2020"
+        }
+    ]
+}

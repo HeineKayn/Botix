@@ -1,0 +1,5 @@
+{
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/7/71/Clarity_old2.png/revision/latest/top-crop/width/220/height/220?cb=20200318060735",
+    "pseudo": "Botux",
+    "reponse": "Merci mais je m'en bats les couilles\nC'est entendu\nD'accord mek\nL\u00e2che moi la grappe ok?? "
+}
