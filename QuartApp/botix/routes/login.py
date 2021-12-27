@@ -5,6 +5,8 @@ import json
 
 loginBP = Blueprint('login', __name__)
 
+passwordPath = './QuartApp/botix/static/password.txt'
+
 @loginBP.route("/")
 async def login(password=""):
     if not current_user.auth_id :
@@ -19,7 +21,7 @@ async def login_mdp(password=""):
     
     if password != "" :
         try : 
-            with open('./QuartApp/botix/static/password.txt') as json_file:
+            with open(passwordPath) as json_file:
                 mdp_dic = json.load(json_file)
         except : 
             mdp_dic = []

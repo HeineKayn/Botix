@@ -13,12 +13,13 @@ function UpdateAffiche() {
 	}
 }
 
+// Si on essaie d'ajouter une clé
 var keyAdd = function (event) {
     if (event.type = "keydown"){
     	if (event.key == 'Enter'){
 
     		setTimeout(function(){
-			    $.post('/use_key', {"key" : event.target.value}).done(function(response) {
+			    $.post('/botix/fortune/use_key', {"key" : event.target.value}).done(function(response) {
 			    		console.log(response["key_exist"])
 						if (response["key_exist"] == true){
 							count_coup ++;
@@ -49,8 +50,10 @@ function OpenChest(element) {
 
 		const content_pop = document.createElement("div");
 		content_pop.classList.add("coffre_content");
-		content_pop.innerText = "?";
+		const content_text = document.createElement("span")
+		content_text.innerText = "?";
 		element.insertBefore(content_pop, image_coffre);
+		content_pop.appendChild(content_text);
 
 		var id = setInterval(monte, 1);
 		var hauteur = 0;
@@ -70,51 +73,33 @@ function OpenChest(element) {
 			    }
 
 			    if (marginTop % 5 === 0){
-			    	content_pop.innerText += "?";
-			    	content_pop.style.color = '#'+Math.random().toString(16).substr(-6);
+			    	content_text.innerText += "?";
+			    	content_text.style.color = '#'+Math.random().toString(16).substr(-6);
 			    }
 		    }
 		 }
 
-		/* FAIRE EN SORTE QUE CA GROSSISSE APRES ETRE MONTE*/
-		/*var largeur = 140;
-		var marginLeft = 30;
-		var id = setInterval(elargie, 1);
-		function elargie() {
-
-		    if (marginTop < 1) {
-		      clearInterval(id);
-		    } 
-		    else {
-		    	marginTop -= 2;
-			    content_pop.style.marginTop = marginTop + 'px';
-
-			    if (hauteur < 100){
-					hauteur += 2; 
-			      	content_pop.style.height = hauteur + 'px'; 
-			    }
-		    }
-		 }*/
-
 		setTimeout(function(){
-		    $.post('/fortune_open', {"id_coffre" : String(element.getAttribute('indexValue'))
+		    $.post('/botix/fortune/open', {"id_coffre" : String(element.getAttribute('indexValue'))
 				}).done(function(response) {
-                	element.innerHTML = "<div class='coffre_content'>"+ response["content"] +"</div><img width=220 src='../static/image/coffre_ouvert.png' alt ='coffre ouvert'></img>"
+                	element.innerHTML = "<div class='coffre_content'><span>"+ response["content"] +"</span></div><img width=220 src='../static/image/coffre_ouvert.png' alt ='coffre ouvert'></img>"
             	}).fail(function() {
                 	console.log("Fail");
             });
 		}, 500);  
 
 	}
+
+	// Si on a pas de coupon ça fais grossir l'indicateur
 	else{
 		document.getElementById("keyInput").focus();
 		var size = window.getComputedStyle(document.getElementById("coupon_state"), null).getPropertyValue('font-size').split('p')[0];
 		size = parseInt(size);
-		if (size < 60){
-			size += 5 ;
+		if (size < 40){
+			size += 3 ;
 			document.getElementById("coupon_state").style.fontSize = size + "px";
 		}
-		if (size >= 60){
+		else{
 			document.getElementById("coupon_state").style.textDecoration = "underline";
 		}
 	}

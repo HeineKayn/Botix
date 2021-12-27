@@ -1,4 +1,4 @@
-from quart import Blueprint, render_template, redirect, url_for
+from quart import Blueprint, render_template, redirect
 from quart_auth import *
 
 import json
@@ -6,50 +6,53 @@ import random
 
 fortuneBP = Blueprint('fortune', __name__)
 
+coffrePath = './QuartApp/botix/static/coffres.txt'
+keyPath    = './QuartApp/botix/static/keys.txt'
+
 @fortuneBP.route("/")
 @login_required
 async def fortune():
-
 	try : 
-		with open('./static/coffres.txt') as json_file:
+		with open(coffrePath) as json_file:
 			coffres = json.load(json_file)
 	except : 
 		coffres = []
 
 	try : 
-		with open('./static/keys.txt') as json_file:
+		with open(keyPath) as json_file:
 			keys = json.load(json_file)
 	except : 
 		keys = []
 		
 	return await render_template('fortune.html',coffres=coffres,keys=keys)
 
+# Si on vient en cliquant sur le menu on mélange l'ordre des coffres
 @fortuneBP.route("/first-time")
 @login_required
 async def fortune_shuffle():
 	try : 
-		with open('./static/coffres.txt') as json_file:
+		with open(coffrePath) as json_file:
 			coffres = json.load(json_file)
 			random.shuffle(coffres)
 
-		with open('./static/coffres.txt', 'w') as outfile:
+		with open(coffrePath, 'w') as outfile:
 			json.dump(coffres, outfile, indent=4)
 	except : 
 		pass
 	return redirect("/botix/fortune")
 
-@fortuneBP.route('/fortune_open', methods=['POST'])
+@fortuneBP.route('/open', methods=['POST'])
 @login_required
 async def fortune_open():
 	id_coffre = await request.form
 	id_coffre = int(id_coffre['id_coffre']) - 1
 
 	try : 
-		with open('./static/coffres.txt') as json_file:
+		with open(coffrePath) as json_file:
 			coffres = json.load(json_file)
 			coffres[id_coffre]["open"] = True
 
-		with open('./static/coffres.txt', 'w') as outfile:
+		with open(coffrePath, 'w') as outfile:
 			json.dump(coffres, outfile, indent=4)
 
 	except : 
@@ -65,7 +68,7 @@ async def use_key():
 	key = key['key']
 
 	try : 
-		with open('./static/keys.txt') as json_file:
+		with open(keyPath) as json_file:
 			coffres = json.load(json_file)
 
 		key_exist = key in coffres
@@ -73,7 +76,7 @@ async def use_key():
 		if key_exist : 
 
 			coffres.remove(key)
-			with open('./static/keys.txt', 'w') as outfile:
+			with open(keyPath, 'w') as outfile:
 				json.dump(coffres, outfile, indent=4)
 
 	except : 
