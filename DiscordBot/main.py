@@ -11,6 +11,11 @@ load_dotenv()
 IPC_Pass = os.getenv('IPC_Pass')
 Token = os.getenv('Test_Token')
 
+initial_extentions = [
+    # "cogs.ipc",
+    "cogs.communiquer"
+]
+
 # --------------
 
 class MyBot(commands.Bot):
@@ -18,7 +23,8 @@ class MyBot(commands.Bot):
         super().__init__(*args, **kwargs)
 
         self.ipc = ipc.Server(self, secret_key=IPC_Pass)  # create our IPC Server
-        self.load_extension("cogs.ipc")  # load the IPC Route cog
+        for extension in initial_extentions:
+            self.load_extension(extension)
 
     async def on_ready(self):
         print("Bot is ready.")

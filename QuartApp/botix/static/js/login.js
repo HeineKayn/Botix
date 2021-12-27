@@ -2,7 +2,7 @@ var loginBar = function (event) {
 
     if (event.type = "keydown" && String(event.target.value) !== ""){
     	if (event.key == 'Enter'){
-    		window.location.pathname += "/" + String(event.target.value) ;
+    		window.location.pathname += "/insert/" + String(event.target.value) ;
     	}
     	if (event.key == 'Backspace' || event.key == 'Delete'){
     		event.target.value = "";

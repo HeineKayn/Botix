@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px) {
+
+    .logo {
+        display: none;
+    }
+
+    .menu > ul > li {
+        width: 100%
+    }
+
+    .menu > ul > li a {
+        font-size: max(30px,1vw);
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu > ul > li a span {
+        display: none;
+    }
+
+    #section_profil a img {
+        width: 90%;
+    }
+}
