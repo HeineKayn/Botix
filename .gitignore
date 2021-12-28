@@ -1,2 +1,4 @@
 ﻿web_data/*
 .env
+*.pyc
+*.txt
