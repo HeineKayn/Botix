@@ -1,5 +1,5 @@
 function ConfigElement(name,value) {
-	$.post('/config_element', {"name" : name, "value" : value});
+	$.post('/botix/config/config_element', {"name" : name, "value" : value});
 }
 
 
@@ -36,7 +36,7 @@ function AddKey(element) {
 	input = document.getElementById(element.getAttribute("reference"));
 	value = input.value;
 	success = document.getElementById("success_key");
-	$.post('/generate_key', {"number" : value}).done(function(response) {
+	$.post('/botix/config/generate_key', {"number" : value}).done(function(response) {
 
 		success.innerHTML = String(response["generated"]) + " clés générés"
     	success.style.display = "contents";

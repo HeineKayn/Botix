@@ -1,0 +1,98 @@
+
+.config_container{
+	width : 99.8%;
+	height: 100%;
+	overflow: auto;
+}
+
+.config{
+	margin-left: 4%;
+	width:60%;
+	height: 100%
+}
+
+@media screen and (max-width: 600px) {
+	.config{
+		width: 90%;
+	}
+}
+
+#current > img {
+	width : max(6vw,60px);
+  	height: max(6vw,60px);
+  	object-fit:cover;
+	border-radius: 50%;
+	border : solid #2f3136;
+}
+
+.config .container {
+	margin-top: 30px;
+	font-size: max(1.2vw, 20px);
+}
+
+.container.avatar #current {
+	margin-bottom: 30px;
+}
+
+.config_button {
+	height: 30px;
+	width: 90px;
+	margin-left: 20px;
+}
+
+.container.avatar > div {
+	display: flex;
+  	align-items: center;
+	flex-wrap: wrap;
+}
+
+.configInput {
+	font-size: max(1.2vw,15px);
+	padding: 10px;
+	width: 50%;
+	background-color: #40444b;
+	border-width:0px;
+	border:none;
+	color: #c0c0c0;
+}
+
+.container.pseudo > button {
+	margin-left: 14px;
+}
+
+.resizeable{
+	margin-top: 10px; 
+	resize: vertical;
+  	overflow: hidden;
+  	width: 100%;
+  	height:6em;
+}
+
+#messageInput {
+	width:100%;
+	height:100%;
+	padding: 10px;
+	font-size: max(1.2vw,15px);
+	background-color: #40444b;
+	border-width:0px;
+	border:none;
+	color: #c0c0c0;
+}
+
+#addKeyInput{
+	width:10%;
+}
+
+.flasher{
+	font-size: 1vw;
+	margin-left: 20px;
+	display: none;
+}
+
+#erreur_url{
+	color:red;
+}
+
+#success_key{
+	color:green;
+}

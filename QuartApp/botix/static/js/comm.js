@@ -12,7 +12,7 @@ function Select(target){
             datalist.innerHTML = "";
             guild = target.value;
 
-            $.post('/select_guild', {"guild" : target.value}).done(function(response) {
+            $.post('/botix/communiquer/select_guild', {"guild" : target.value}).done(function(response) {
                 response["channel_list"].forEach(function(channel){
                     var option = document.createElement("option");
                     option.text = channel;
@@ -30,7 +30,7 @@ function Select(target){
             const innerSection = document.createElement("div");
             channel = target.value;
 
-            $.post('/select_channel', {"guild" : guild, "channel" : target.value}).done(function(response) {
+            $.post('/botix/communiquer/select_channel', {"guild" : guild, "channel" : target.value}).done(function(response) {
                 sendInput.placeholder = "Envoyez un message à #" + channel;
                 messages = response["messages"];
                 messages.forEach(function(message){
@@ -129,7 +129,7 @@ function updateScroll(){
 function Send(event){
     element = document.getElementById("sendMessageInput");
     if (element.value != "" && event.key == 'Enter' && !event.shiftKey){
-        $.post('/send_message', {"guild" : guild, "channel" : channel, "content" : element.value});
+        $.post('/botix/communiquer/send_message', {"guild" : guild, "channel" : channel, "content" : element.value});
         setTimeout(function(){
             element.value = "";
             force_refresh = true;

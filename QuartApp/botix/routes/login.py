@@ -13,8 +13,7 @@ async def login(password=""):
         return await render_template('login.html')
     else : 
         logout_user()
-        return redirect("/botix/communiquer")
-        # return redirect("/botix")
+        return redirect("/botix/place_publique")
 
 @loginBP.route("/insert/<password>")
 async def login_mdp(password=""):
@@ -31,16 +30,14 @@ async def login_mdp(password=""):
                 login_user(user=AuthUser(int(key)),remember=True)
 
     if not current_user.auth_id :
-        return redirect(url_for('login'))
+        return redirect("/botix/login")
     else : 
-        return redirect("/botix/communiquer")
-        # return redirect("/botix")
+        return redirect("/botix/place_publique")
 
 @loginBP.route("/logout")
 async def logout():
     logout_user()
-    return redirect("/botix/communiquer")
-    # return redirect("/botix")
+    return redirect("/botix/place_publique")
     
 @loginBP.route("/restrict")
 @login_required

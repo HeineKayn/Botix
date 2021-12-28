@@ -23,6 +23,7 @@
 
 .container.messages{
 	overflow: auto;
+	overflow-x: hidden;
 	float:left;
 	width:99.5%;
 	height:75%;

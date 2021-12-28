@@ -13,7 +13,6 @@ import aiohttp
 # ---------------
 
 import aiomysql
-import sys
 import os 
 import json
 from dotenv import load_dotenv
