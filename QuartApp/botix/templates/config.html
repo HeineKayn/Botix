@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<link rel="stylesheet" href="../static/css/config.css"/>
+	<script type="text/javascript" src="../static/js/config.js"></script>
+
+	<div class="config_container">
+		<div class="config">
+
+			<div class="container avatar">
+
+				<div id="current">
+					<img src= {{ config.avatar }} alt ="avatar de botix"></img>
+					<button class="config_button" onclick="ResetAvatar()">Réinitialiser</button>
+				</div>
+
+				<div id="change">
+					<input type="text" class="configInput" id="avatarInput" spellcheck="false" placeholder="Url de l'avatar">
+					<button class="config_button" name="avatar" reference="avatarInput" onclick="Confirm(this)">Confirmer</button>
+					<p class="flasher" id="erreur_url">Url invalide</p>
+				</div>
+			</div>
+
+			<div class="container pseudo">
+				<p>Pseudo du Bot</p>
+				<input type="text" class="configInput" id="pseudoInput" spellcheck="false" placeholder={{ config.pseudo }}>
+				<button class="config_button" name="pseudo" reference="pseudoInput" onclick="Confirm(this)">Confirmer</button>
+			</div>
+
+			<div class="container message">
+				<p>Réponse par défaut aux DM</p>
+				<div class="resizeable">
+					<textarea id="messageInput" name="reponse" reference="messageInput" onblur="Confirm(this)">{{ config.reponse }}</textarea>
+				</div>
+			</div>
+
+			<div class="container key">
+				<p>Générer des clés de la MissFortune</p>
+				<input type="number" class="configInput" id="addKeyInput" spellcheck="false" placeholder="0">
+				<button class="config_button" reference="addKeyInput" onclick="AddKey(this)">Générer</button>
+				<p class="flasher" id="success_key">Success</p>
+			</div>
+
+			<!--
+				couleur et nom du rôle sur tel serveur
+				apparence du site ?
+				manager les clés des coffres mf (en générer + les afficher)
+			-->
+
+		</div>
+	</div>
+
+{% endblock %}

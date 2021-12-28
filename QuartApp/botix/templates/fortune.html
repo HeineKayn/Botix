@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<link rel="stylesheet" href="../static/css/fortune.css"/>
+	<script type="text/javascript" src="../static/js/fortune.js"></script>
+
+	<div id="coffre_top">
+		<div id="keyInput_container">
+			<input type="text" id="keyInput" spellcheck="false" placeholder="Entrez une clef">
+		</div>
+		<div id="coffre_coupon">
+			Coupon : 
+			<div id="coupon_state">Aucun</div>
+		</div>
+		<hr id="coffre_separator">
+	</div>
+
+	<div id="coffre_section">
+
+		{% for coffre in coffres %}
+			<div class="coffre_container">
+
+				{% if coffre.open %}
+					<div class="coffre_open" indexValue={{ loop.index }}>
+						<div class="coffre_content">
+							<span>{{ coffre.content }}</span>
+						</div>
+						<img width=220 src="../static/image/coffre_ouvert.png" alt ="coffre ouvert"></img>
+					</div>
+				{% else %}
+					<div class="coffre_close" onclick="OpenChest(this)" indexValue={{ loop.index }} >
+						{% if loop.index > 9 %} 
+							<div class="coffre_chiffre bigger">{{ loop.index }}</div>
+						{% else %}              
+							<div class="coffre_chiffre">{{ loop.index }}</div>
+						{% endif %} 
+					    <img width=220 src="../static/image/coffre_ferme.png" alt ="coffre fermé"></img>
+					</div>
+				{% endif %}
+
+			</div>
+		{% endfor %}
+	</div>
+
+{% endblock %}

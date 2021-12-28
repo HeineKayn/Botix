@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<link rel="stylesheet" href="../static/css/publique.css"/>
+	<link rel="stylesheet" href="../static/css/messages.css"/>
+	<script type="text/javascript" src="../static/js/publique.js"></script>
+
+	<div class="section_channel">
+		<div class="channel_name">🏰 place_publique</div>
+		<div class="channel vsep"></div>
+		<div class="channel_description">Lieu principale de discussion</div>
+		<div class="img_outils">
+			<img src="../static/image/notif.png" alt ="image notification" width=85></img>
+			<img src="../static/image/member_list.png" alt ="activer/désactiver liste des membres" width=30 class="member_icon"></img>
+			<img src="../static/image/rechercher.png" alt ="image barre de recherche"></img>
+			<img src="../static/image/notifications.png" alt ="image notification" width=35></img>
+			<img src="../static/image/help.png" alt ="help" width=30 class="help_icon"></img>
+		</div>
+		<div class="channel hsep"></div>
+	</div>
+
+	<div class="section_messages">
+		{% for message in messages %}
+
+					<div class="container_message">
+
+						<div class="container_pp_message">
+							<img class="pp_message" src= {{ message.avatar }} alt ="photo de profil" width=85></img>
+						</div>
+
+						<div class="container_entete_message">
+							<div class="pseudo_message" style="color: {{ message.colour }} ;"> {{ message.name }} </div>
+							<div class="horaire_message"> {{ message.date }} </div>
+						</div>
+
+						<div class="container_content_message"> 
+							{% for content in message.content %}
+								<div class="content_message"> {{ content }} </div>
+							{% endfor %} 
+							
+							{% for attach in message.attachements %}
+								<div class="container_attach_message"><img class="attach_message" src= {{ attach.url }} alt = "{{ attach.name }}"></img></div>
+							{% endfor %} 
+						</div>
+
+					</div>
+
+				<div style="clear:both;"></div>
+			
+		{% endfor %} 
+	</div>
+
+	<div class="online_bar"> 
+
+		{% for name_maison, demaciens in demacien_list.items() %}
+			<div class="bloc_maison">
+
+				<div class="container_header_maison">
+					<div class="header_maison" id={{ name_maison }}>{{ name_maison }}-{{ demaciens|length }}</div>
+				</div>
+
+				{% for demacien in demaciens %}
+
+					{% if demacien.status != "offline" %}
+						<div class="container_bloc_personne">
+							<div class="bloc_personne">
+								<img class="pp_online" src = {{ demacien.avatar }} width=40></img>
+								<div class="pseudo_online" style="color: {{ demacien.colour }};">{{ demacien.name }}</div>
+							</div>
+						</div>
+					{% endif %}
+
+				{% endfor %}
+			</div>
+		{% endfor %}
+
+	</div>
+
+{% endblock %}

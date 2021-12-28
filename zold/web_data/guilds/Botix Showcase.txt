@@ -1,0 +1,23 @@
+{
+    "time": "2021/12/25 20:52:26",
+    "content": [
+        "d\u00e9monstration",
+        "rules",
+        "moderator-only",
+        "lg",
+        "info-memo",
+        "test-memo",
+        "g\u00e9n\u00e9ral",
+        "\ud83c\udff0place_publique",
+        "test-ub",
+        "equipe-bot",
+        "starduck",
+        "deltix",
+        "stardix",
+        "moisolo",
+        "temari",
+        "charon",
+        "fu",
+        "tyrioa"
+    ]
+}

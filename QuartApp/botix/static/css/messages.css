@@ -1,0 +1,108 @@
+
+.section_messages{
+	overflow: auto;
+	float:left;
+	width: 85%;
+	height: 90%;
+}
+
+.container_message{
+	margin-top: 15px;
+	width:100%;
+}
+
+.container_pp_message{
+	float: left;
+	width: 45px;
+	height: 100%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.pp_message{
+	width : 2.8em;
+	border-radius: 50%;
+}
+
+.pseudo_message{
+    margin-right: 10px;
+    float: left;
+}
+
+.horaire_message{
+	width: 80%;
+    float: left;
+    color: #6c6f77;
+}
+
+.container_content_message{
+	float:left;
+	width:80%;
+	margin-top: 3px;
+}
+
+.container_attach_message{
+	width:100%;
+}
+
+.content_message{
+	color : rgb(188, 188, 191);
+	width:100%;
+	float:left;
+}
+
+.attach_message{
+	width: 15em;
+}
+
+/* partie onlines */
+
+.online_bar{
+	overflow: auto;
+	float: right;
+    width: 14.8%;
+    height: 90%;
+    background-color: #2f3136;
+}
+
+.bloc_maison{
+	margin-left: 30px;
+}
+
+.container_header_maison{
+	padding-top: 20px;
+    height: 20px;
+}
+
+.header_maison{
+	text-transform: uppercase;
+}
+
+.container_bloc_personne{
+	position: relative;
+    max-width: 224px;
+    padding-top : 8px;
+}
+
+.bloc_personne{
+	display: flex;
+    align-items: center;
+    border-radius: 4px;
+    height: 42px;
+    padding-right: 8px;
+}
+
+.pp_online{
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+	.online_bar{
+		display: none;
+	}
+	.section_messages{
+		width:100%;
+	}
+}

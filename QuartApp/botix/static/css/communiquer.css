@@ -1,0 +1,55 @@
+.comm.input_section{
+	width:100%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 10%;
+	margin: 0px 20px;
+}
+
+.CommInput{
+	width:max(30%,240px);
+	height:max(10%,20px);
+	padding:1vw;
+	margin:2vw;
+	font-size: max(2vw,1em);
+}
+
+.comm.hsep{
+	width: 100%;
+    height: 1px;
+    background-color: #2b2e33
+}
+
+.container.messages{
+	overflow: auto;
+	overflow-x: hidden;
+	float:left;
+	width:99.5%;
+	height:75%;
+}
+
+.container.sendMessage{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	position:absolute;
+	bottom : 10px;
+	height: 80px;
+	width: 80%;
+	min-width: 150px;
+}
+
+#sendMessageInput{
+	resize: none;
+  	overflow: auto;
+	width:90%;
+	height:50%;
+	margin:0px 20px;
+	padding:10px;
+	font-size: max(1.2vw,15px);
+	background-color: #40444b;
+	border-width:0px;
+	border:none;
+	color: #c0c0c0;
+}

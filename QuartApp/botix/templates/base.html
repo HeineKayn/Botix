@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/base.css"/>
+	<link rel="stylesheet" href="../static/css/base_mobile.css"/>
+	<script src="https://kit.fontawesome.com/e176a92991.js" crossorigin="anonymous"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/image/botix-web.ico">
+    <title>Botix Web</title>
+</head>
+<body>
+
+	<div id="topbar"></div>
+
+	<div id="sidebar">
+		<div class="logo">
+			<img src="../static/image/botix_circle.png" alt ="logo de botix"></img>
+		</div>
+
+		<div class="menu" id="everyone">
+			<ul>
+				<li><a href="/botix/place_publique">
+					<i class="fas fa-fw fa-home"></i>
+					<span>Place Publique</span>
+				</a></li>
+
+				<li><a href="/bravery">
+					<i class="fas fa-fw fa-fist-raised"></i>
+					<span>Bravery</span>
+				</a></li>
+
+				<!-- <li><a href="/botix/stats">
+					<i class="fas fa-fw fa-chart-bar"></i>
+					<span>Statistiques</span>
+				</a></li> -->
+			</ul>
+		</div> 
+
+		{% if current_user.is_authenticated %}
+			<div class="menu" id="advanced">
+				<ul>
+					<li><a href="/botix/fortune/first-time">
+						<i class="fas fa-fw fa-gift"></i>
+						<span>MissFortune</span>
+					</a></li>
+
+					<!-- <li><a href="/botix/musique">
+						<i class="fas fa-fw fa-music"></i>
+						<span>Musique</span>
+					</a></li> -->
+				</ul>
+			</div> 
+
+		{% if current_user.auth_id == 2 %}
+			<div class="menu" id="owner">
+				<ul>
+					<li><a href="/botix/communiquer">
+						<i class="fas fa-fw fa-comment-dots"></i>
+						<span>Communiquer</span>
+					</a></li>	
+
+					<!-- <li><a href="/botix/logs">
+						<i class="fas fa-fw fa-history"></i>
+						<span>Logs</span>
+					</a></li>	 -->
+
+					<li><a href="/botix/config">
+						<i class="fas fa-fw fa-sliders-h"></i>
+						<span>Configurer</span>
+					</a></li>	
+				</ul>
+			</div> 
+
+		{% endif %}
+		{% endif %}
+
+		<div id="section_profil">
+			<a href="/botix/login">
+				{% if not current_user.is_authenticated %}
+				<img src="../static/image/profil.png" alt ="image profil inconnu"></img>
+				{% endif %}
+
+				{% if current_user.auth_id == 1 %}
+				<img src="../static/image/profil_invite.png" alt ="image profil invité"></img>
+				{% endif %}
+				
+				{% if current_user.auth_id == 2 %}
+				<img src="../static/image/profil_owner.png" alt ="image profil owner"></img>
+				{% endif %}
+			</a>
+			<div>
+				<img src="../static/image/options.png" alt ="image options"></img>
+			</div>
+		</div>
+	</div>
+
+	<div class="section_container">
+		{% block content %}{% endblock %}
+	</div>
+
+</body>
+</html>

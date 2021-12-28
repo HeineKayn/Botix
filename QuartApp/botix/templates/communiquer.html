@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<link rel="stylesheet" href="../static/css/communiquer.css"/>
+	<link rel="stylesheet" href="../static/css/messages.css"/>
+	<script type="text/javascript" src="../static/js/comm.js"></script>
+
+	<div class="comm input_section">
+
+		<input type="text" class="CommInput" id="guild_input" reference="guild" spellcheck="false" list="guild_datalist" placeholder="Entrez le serveur">
+		<datalist id="guild_datalist">
+			{% for guild in guild_list %}
+				<option>{{ guild.name }}</option>
+			{% endfor %}
+		</datalist>
+
+		<input type="text" class="CommInput" id="channel_input" reference="channel" spellcheck="false" list="channel_datalist" placeholder="Entrez le channel">
+		<datalist id="channel_datalist">
+			{% for channel in channel_list %}
+				<option>{{ channel.name }}</option>
+			{% endfor %}
+		</datalist>
+
+	</div>
+
+	<div class="comm hsep"></div>
+
+	<div class="container messages" id="section_messages">
+		
+	</div>
+
+	<div class="container sendMessage">
+		<textarea id="sendMessageInput" placeholder="!!! Séléctionnez un serveur et un channel !!!" disabled></textarea>
+	</div>
+
+
+{% endblock %}
